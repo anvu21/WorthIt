@@ -106,10 +106,18 @@ WorthItFood/
 
 - `Map` sheet = one row per restaurant (authoritative list). `Main` sheet = one row per item, joined to Map by normalized name (+ address when names collide, e.g. two Pasta Sisters).
 - Columns are found **by header name**, not position. Optional `Lat` / `Lng` columns on `Map` override geocoding.
-- Names: strip `=HYPERLINK(url, "Name")`, leading `CLOSED` → `closed: true`.
-- Multi-episode cells are newline-separated; `-` lines are separators and dropped.
+- Names: strip `=HYPERLINK(url, "Name")`. Closed markers in any of these forms → `closed: true` and are removed from the name: `CLOSED Tokyo Dog`, `Closed: X`, `Bar Bolonat (CLOSED)`, `The Church Key [CLOSED]`.
+- Multi-episode cells are newline-separated; `-` lines are separators and dropped. A single value (e.g. one price) applies to every appearance.
 - Price Point: `$ / $$ / $$$` kept; `Side Trip` → `side`; `One Stop`, `Holiday Special` → `special`; `n/a`/blank → null.
-- U+FFFD (`�`) characters are lossy in the source file: fixed heuristically in titles (`" � "` → `" – "`, `"�s"` → `"’s"`) and reported as warnings everywhere else.
+- Formula cells other than HYPERLINK (e.g. Main's VLOOKUP columns) are read from openpyxl's cached values (`data_only=True`).
+- U+FFFD (`�`) handling exists (`fix_title`, warnings) but the current file has none. Garbled characters seen in a Windows console are just cp1252 output; the CLI forces UTF-8 stdout.
+
+### Geocoding rules (`importer/worthit_import/geocode.py`)
+
+- Cache key = normalized address. Entries are `{lat, lng, city, country, query}` or `{"failed": true}`. Failures are cached too, so they're not re-queried; use `--retry-failed` to try them again.
+- Query order: full address → address without unit/suite → address without postcode → name-based queries (`name, <last 2 address parts>` and `name, city, country`).
+- **Name-based hits are accepted only if the hit's postcode area (first 3 chars) matches the sheet address's postcode.** Without this rule they matched namesakes: The Belvedere → a park in East LA, Decoy → upstate NY, Pablo Coffee (Osaka) → Miyagi, Coffee Elementary School → an actual school. Any hit in a different country than the sheet says is rejected.
+- Result as of 2026-10-30: **207 / 242 have pins.** The 35 misses are mostly Taiwan and Japan addresses (OSM coverage is weak there), plus a few hotels and food halls. Fix them with `Lat`/`Lng` columns on the Map sheet, not by loosening the name-match rule.
 
 ### Stable IDs (critical — visitors' checklists reference them)
 
@@ -121,7 +129,8 @@ WorthItFood/
 
 - Key `worthit.visits.v1` → `{ "v": 1, "visits": { "<id>": { "date": "YYYY-MM-DD", "note": "" } }, "lastBackup": "<iso>" }`
 - Export = download that JSON. Import = file or sync code; **merge by default** (keep earliest date), replace optional.
-- Sync code = `WI1.` + `.`-joined `<id><date-as-base36-days-since-2016>` tokens — short enough to text yourself.
+- Sync code = `WI1.` + `.`-joined `<id>` or `<id>-<base36 days since 2016-01-01>` tokens, e.g. `WI1.2dxza2-31v`. Notes are not included in the code (use the file export for those).
+- Filters persist in `worthit.filters.v1` (search text is not saved). The selected place lives in the URL hash `#p=<id>`.
 - Safari evicts script storage after 7 days without a visit (unless installed to Home Screen) → show a backup nudge when ≥ 5 visits and no export in 14 days.
 
 ---
@@ -130,8 +139,8 @@ WorthItFood/
 
 | Workflow | Trigger | Does |
 |---|---|---|
-| `ci.yml` | PRs + pushes | pytest importer; `python -m worthit_import --check` (JSON is in sync with the xlsx, no network); `npm run build` |
-| `deploy.yml` | push to `main` touching `frontend/**`, `Data/**`, `importer/**` | build → `s3 sync dist/ s3://$BUCKET/worthit/ --delete` (hashed assets immutable, `index.html` + `data/*.json` no-cache) → CloudFront invalidation `/worthit/*` |
+| `ci.yml` | PRs, pushes to non-`main` branches, and called by `deploy.yml` | pytest importer; `python -m worthit_import --check` (JSON is in sync with the xlsx, no network); vitest; `npm run build` |
+| `deploy.yml` | push to `main` touching `frontend/**`, `Data/**`, `importer/**` | runs `ci.yml` → build → `s3 sync dist/ s3://$BUCKET/worthit/ --delete` (hashed assets immutable, `index.html` + `data/*.json` no-cache) → CloudFront invalidation of `/worthit` and `/worthit/*` only |
 | `infra.yml` | changes under `terraform/**` | plan on PR, apply on `main` |
 
 GitHub repo **variables**: `SITE_BUCKET`, `CLOUDFRONT_DISTRIBUTION_ID` (oil's). **Secrets**: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` (same IAM user as oil).
@@ -146,6 +155,40 @@ GitHub repo **variables**: `SITE_BUCKET`, `CLOUDFRONT_DISTRIBUTION_ID` (oil's). 
 - Frontend must work with zero backend: everything is filtered client-side (~250 rows).
 - Vite `base: '/worthit/'`. Never use path routes.
 - Map tiles: OpenStreetMap standard tiles (free, keyless; CARTO now requires an API key). Attribution must credit OpenStreetMap. If traffic ever grows, move to a keyed provider.
+- `generated_at` in the JSON only changes when the restaurant list changes, so `--check` stays stable.
+- The importer runs on Python 3.10+ locally; CI uses 3.12. Keep code 3.10-compatible.
+- `.~lock.*#` files (LibreOffice, while the xlsx is open) are gitignored. Close the spreadsheet before running the importer.
+
+---
+
+## Status and next steps (as of 2026-10-30)
+
+**Done**
+- Importer, frontend, Terraform and workflows are written. Locally, 18 pytest and 7 vitest tests pass, the build passes, and `--check` passes.
+- Pushed to https://github.com/anvu21/WorthIt (`main`). The first workflow runs fail at the AWS step because the repo has no secrets yet. That's expected.
+- Oil change (`/worthit*` origin + behavior + CloudFront Function, gated on `worthit_bucket_regional_domain`) is pushed to branch `feat/worthit-route` in `anvu21/oil_price_project`. **It's not merged.** Its HCL was never run through `terraform fmt` (no Terraform on the original machine), so the PR's plan run is the first format/validate check.
+
+**Remaining, in order**
+1. WorthIt repo: add secrets `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` (same as oil).
+2. Run **Infrastructure** (`infra.yml`). Copy the three outputs from the run summary.
+3. Set repo variables: WorthIt → `SITE_BUCKET`, `CLOUDFRONT_DISTRIBUTION_ID`; oil → `TF_WORTHIT_BUCKET_DOMAIN`.
+4. Open a PR for oil's `feat/worthit-route`. If the plan run is green (fix any `terraform fmt` complaints), merge it. Oil's `deploy-infra.yml` applies on `main`.
+5. Run **Deploy site**. Verify `https://d29v5i05cdp0sg.cloudfront.net/worthit/` loads, a place card opens, and a deep link `#p=<id>` works.
+
+**Later / ideas**
+- Fill `Lat`/`Lng` for the 35 unpinned places (list them with `python -m worthit_import --check`).
+- Make the site installable (manifest + icons) so iOS Safari doesn't evict the checklist after 7 days.
+- Optional: custom domain (~$12/yr + Route 53 $0.50/mo), replace IAM access keys with GitHub OIDC.
+
+## Getting started on a new machine
+
+```bash
+git clone https://github.com/anvu21/WorthIt.git
+cd WorthIt/importer && pip install -r requirements.txt -r requirements-dev.txt && python -m pytest -q
+cd ../frontend && npm install && npm test && npm run dev   # http://localhost:5174/worthit/
+```
+
+No AWS CLI or Terraform is needed locally. All deploys go through GitHub Actions.
 
 ## Estimated monthly cost
 
