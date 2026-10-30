@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-paper font-sans text-ink antialiased;
+}
+
+/* Map pins: a teardrop in the tier colour; visited pins are muted with a check. */
+.pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--pin);
+  border: 2.5px solid #fff;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.35);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+.pin-visited {
+  background: color-mix(in srgb, var(--pin) 35%, #57534e);
+  opacity: 0.85;
+}
+.pin-visited,
+.pin-selected {
+  /* keep the check mark upright */
+  text-indent: 0;
+}
+.pin > * {
+  transform: rotate(45deg);
+}
+.pin-selected {
+  border-color: #1c1917;
+  box-shadow: 0 0 0 4px rgb(28 25 23 / 0.2), 0 2px 8px rgb(0 0 0 / 0.4);
+}
+
+.cluster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: #1c1917;
+  border: 3px solid rgb(255 255 255 / 0.9);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.3);
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1;
+}
+.cluster small {
+  margin-top: 2px;
+  font-size: 9px;
+  color: #a8e6b8;
+}
+
+.leaflet-container {
+  font-family: inherit;
+  background: #e8e4dc;
+}

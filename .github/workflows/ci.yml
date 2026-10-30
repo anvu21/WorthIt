@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches-ignore: [main]   # main is covered by deploy.yml, which calls this workflow
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  importer:
+    name: Importer tests + data check
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: importer
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Unit tests
+        run: python -m pytest -q
+
+      # Fails if someone edited the xlsx but forgot to run the importer and commit
+      # restaurants.json (or added an address that was never geocoded). No network.
+      - name: restaurants.json matches the workbook
+        run: python -m worthit_import --check
+
+  frontend:
+    name: Frontend tests + build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('frontend/package-lock.json') }}
+          restore-keys: npm-${{ runner.os }}-
+
+      - run: npm ci --prefer-offline
+      - run: npm test
+      - run: npm run build

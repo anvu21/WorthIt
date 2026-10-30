@@ -1,0 +1,75 @@
+name: Infrastructure
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'terraform/**'
+      - '.github/workflows/infra.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'terraform/**'
+      - '.github/workflows/infra.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  AWS_REGION: us-east-1
+  TF_VERSION: '~1.7'
+
+jobs:
+  terraform:
+    name: Terraform ${{ github.event_name == 'pull_request' && 'Plan' || 'Apply' }}
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: terraform
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+          terraform_wrapper: false
+
+      - run: terraform init
+      - run: terraform fmt -check -recursive
+      - run: terraform validate
+
+      - name: Terraform Plan
+        id: plan
+        run: |
+          set +e
+          terraform plan -out=tfplan -detailed-exitcode
+          code=$?
+          echo "exitcode=$code" >> "$GITHUB_OUTPUT"
+          [ "$code" -eq 1 ] && exit 1 || exit 0
+
+      - name: Terraform Apply
+        if: github.event_name != 'pull_request' && steps.plan.outputs.exitcode == '2'
+        run: terraform apply -auto-approve tfplan
+
+      # Values to copy into repo variables after the first apply.
+      - name: Outputs
+        if: github.event_name != 'pull_request'
+        run: |
+          {
+            echo "### Set these after the first apply"
+            echo "| Where | Variable | Value |"
+            echo "|---|---|---|"
+            echo "| this repo | SITE_BUCKET | \`$(terraform output -raw site_bucket)\` |"
+            echo "| this repo | CLOUDFRONT_DISTRIBUTION_ID | \`$(terraform output -raw cloudfront_distribution_id)\` |"
+            echo "| oil repo | TF_WORTHIT_BUCKET_DOMAIN | \`$(terraform output -raw site_bucket_regional_domain)\` |"
+            echo ""
+            echo "Site: $(terraform output -raw site_url)"
+          } >> "$GITHUB_STEP_SUMMARY"

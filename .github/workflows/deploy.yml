@@ -1,0 +1,94 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'frontend/**'
+      - 'importer/**'
+      - 'Data/**'
+      - '.github/workflows/deploy.yml'
+      - '.github/workflows/ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Repository variables (Settings → Secrets and variables → Actions → Variables):
+#   SITE_BUCKET                 terraform output site_bucket
+#   CLOUDFRONT_DISTRIBUTION_ID  terraform output cloudfront_distribution_id (oil's)
+# Repository secrets:
+#   AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY   (same IAM user as the oil repo)
+# ─────────────────────────────────────────────────────────────────────────────
+
+env:
+  AWS_REGION: us-east-1
+
+jobs:
+  ci:
+    uses: ./.github/workflows/ci.yml
+
+  deploy:
+    name: Build + upload to S3
+    needs: ci
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ steps.url.outputs.url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('frontend/package-lock.json') }}
+          restore-keys: npm-${{ runner.os }}-
+
+      - name: Build
+        working-directory: frontend
+        run: |
+          npm ci --prefer-offline
+          npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      # Hashed JS/CSS never change → cache for a year.
+      # index.html and the data file must always revalidate so updates show up immediately.
+      - name: Upload to S3
+        run: |
+          DEST="s3://${{ vars.SITE_BUCKET }}/worthit"
+          aws s3 sync frontend/dist/ "$DEST/" --delete \
+            --exclude "index.html" --exclude "data/*" \
+            --cache-control "public,max-age=31536000,immutable"
+          aws s3 sync frontend/dist/data/ "$DEST/data/" --delete \
+            --cache-control "public,max-age=0,must-revalidate"
+          aws s3 cp frontend/dist/index.html "$DEST/index.html" \
+            --cache-control "public,max-age=0,must-revalidate"
+
+      - name: Invalidate CloudFront (/worthit only — never touches the gas price site)
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/worthit" "/worthit/*" \
+            --no-cli-pager
+
+      - id: url
+        run: |
+          DOMAIN=$(aws cloudfront get-distribution --id ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --query Distribution.DomainName --output text)
+          echo "url=https://$DOMAIN/worthit/" >> "$GITHUB_OUTPUT"

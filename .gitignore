@@ -1,0 +1,15 @@
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+.env
+.claude/
+~$*.xlsx
+.DS_Store
+Thumbs.db
+.~lock.*#
