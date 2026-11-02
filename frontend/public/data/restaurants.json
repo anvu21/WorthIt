@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T06:33:33Z",
+ "generated_at": "2026-11-02T07:37:19Z",
  "restaurants": [
   {
    "address": "4 Chome-10-10 Tsukiji, Chuo City, Tokyo 104-0045, Japan",
@@ -35,6 +35,53 @@
     "$"
    ],
    "website": "https://www.tsukiji-marutake.com/"
+  },
+  {
+   "address": "923 E 3rd St Suite 109, Los Angeles, CA 90013",
+   "appearances": [
+    {
+     "episode": 4,
+     "published": "2025-07-23",
+     "season": "New Channel",
+     "tier": "special",
+     "title": "$38 Michelin Star Burger",
+     "video": "https://youtu.be/_hAgIkuXQRM?t=105"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "173xxe",
+   "items": [
+    {
+     "cost": 38.0,
+     "episode": "$38 Michelin Star Burger",
+     "name": "Le Burger",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$38 Michelin Star Burger",
+     "name": "Sea Bream Crudo",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$38 Michelin Star Burger",
+     "name": "Scallop Pasta",
+     "voters": []
+    }
+   ],
+   "lat": 34.046275,
+   "lng": -118.23414,
+   "name": "Camphor",
+   "notes": "Michelin-starred French restaurant, Arts District",
+   "tiers": [
+    "special"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJNW1lfmzHwoARxzp7unjgv-0"
   },
   {
    "address": "3156 Glendale Blvd, Los Angeles, CA 90039",
@@ -168,6 +215,57 @@
    "website": "https://goo.gl/maps/cjjYARdSPdpBTFow9"
   },
   {
+   "address": "33 Eonju-ro 168-gil, Gangnam District, Seoul (Dosan)",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2024-07-26",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "video": "https://youtu.be/vV2eTHg5zoM?t=61"
+    }
+   ],
+   "approx": false,
+   "chain": true,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "1q9d8w",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Pretzel Butter Salt Bagel",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Spring Onion Pretzel Bagel",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Potato Cheese Bagel",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Bacon Potato Sandwich",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "London Bagel Museum",
+   "notes": "Dosan branch",
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJGTEOTEqjfDUR3PisqqSTRkE"
+  },
+  {
    "address": "317 W 12th St, New York, NY 10014",
    "appearances": [
     {
@@ -236,6 +334,43 @@
     "$$$"
    ],
    "website": "https://www.peninsula.com/en/beverly-hills/hotel-fine-dining/belvedere-mediterranean"
+  },
+  {
+   "address": "315 N Brand Blvd, Glendale, CA 91203",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2025-05-30",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$1.50 Vs. $26 Potatoes",
+     "video": "https://youtu.be/-dUEF1E78Zs?t=78"
+    }
+   ],
+   "approx": false,
+   "chain": true,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "1vsqqx",
+   "items": [
+    {
+     "cost": 1.49,
+     "episode": "$1.50 Vs. $26 Potatoes",
+     "name": "Potato Ball",
+     "voters": [
+      "Steven"
+     ]
+    }
+   ],
+   "lat": 34.150415,
+   "lng": -118.255312,
+   "name": "Porto's Bakery & Cafe",
+   "notes": "Several LA-area locations; Glendale is the original",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJXYCo9lTAwoARV6lX-L_cIeY"
   },
   {
    "address": "3385 W 8th St, Los Angeles, CA 90005",
@@ -317,6 +452,14 @@
      "tier": "$$$",
      "title": "$6 Sauce Vs. $185 Sauce",
      "video": "https://youtu.be/CmI2dXo14sY?t=687"
+    },
+    {
+     "episode": 8,
+     "published": "2025-11-17",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$6 Vs. $25 Chicken Wings",
+     "video": "https://youtu.be/zw6zt2iNDEE?t=1404"
     }
    ],
    "approx": false,
@@ -425,6 +568,41 @@
     "$$"
    ],
    "website": "https://goo.gl/maps/qxFinmjhoh5hbs739"
+  },
+  {
+   "address": "45 Wi city 2-ro 11beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2024-06-28",
+     "season": "Travel Season: Korea",
+     "tier": "$$",
+     "title": "$2 Vs. $50 Fried Chicken in Korea",
+     "video": "https://youtu.be/p1z4QSmZIyc?t=859"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Goyang",
+   "closed": false,
+   "country": "Korea",
+   "id": "2b1pkv",
+   "items": [
+    {
+     "cost": 20.0,
+     "episode": "$2 Vs. $50 Fried Chicken in Korea",
+     "name": "Whole Chicken Platter for Two (twice-fried whole chicken)",
+     "voters": []
+    }
+   ],
+   "lat": 37.677764,
+   "lng": 126.812483,
+   "name": "Dalgjjajang",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ5XMpxUiRfDURdBf2W2atTHI"
   },
   {
    "address": "742 W Valley Blvd, Alhambra, CA 91803",
@@ -608,6 +786,45 @@
    "website": "https://www.eatricebar.com/"
   },
   {
+   "address": "23-3 Seolleung-ro 155-gil, Gangnam District, Seoul (1F)",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2024-07-12",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Drinking Food vs Hangover Food in Korea",
+     "video": "https://youtu.be/ZKVWjydyOEA?t=618"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "2nxcvk",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Cheongju",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Tasting Menu (truffle lobster, Hanwoo beef)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Kota by Dyun",
+   "notes": null,
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJG98G2IWjfDURxEXrt8GZmww"
+  },
+  {
    "address": "1100 Westheimer Rd, Houston, TX 77006",
    "appearances": [
     {
@@ -676,6 +893,41 @@
     "side"
    ],
    "website": "https://goo.gl/maps/4kvLMWPShpVrWbBm8"
+  },
+  {
+   "address": "104 8th Ave, New York, NY 10011",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2025-08-22",
+     "season": "New Channel",
+     "tier": "side",
+     "title": "$1 Vs. $36 Instant Ramen",
+     "video": "https://youtu.be/hirHe0u-a8k?t=709"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "New York",
+   "closed": false,
+   "country": "USA",
+   "id": "2qaifh",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$1 Vs. $36 Instant Ramen",
+     "name": "Ramen (Sun Noodle custom noodles)",
+     "voters": []
+    }
+   ],
+   "lat": 40.74049,
+   "lng": -74.001646,
+   "name": "Ramen Ishida",
+   "notes": "Mentioned/featured via Sun Noodle",
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJG-fA4ZtZwokR1SsU53LJ8Y4"
   },
   {
    "address": "9345 Reseda Blvd, Northridge, CA 91324",
@@ -850,6 +1102,49 @@
    "website": "https://www.blazepizza.com/locations/los-angeles-usc/"
   },
   {
+   "address": "861 Dolliver St, Pismo Beach, CA 93449",
+   "appearances": [
+    {
+     "episode": 16,
+     "published": "2026-08-19",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$4 Vs. $46 Cinnamon Roll",
+     "video": "https://youtu.be/SSdYyC0MZZU?t=56"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Pismo Beach",
+   "closed": false,
+   "country": "USA",
+   "id": "3i55x1",
+   "items": [
+    {
+     "cost": 4.0,
+     "episode": "$4 Vs. $46 Cinnamon Roll",
+     "name": "Original Cinnamon Roll",
+     "voters": [
+      "Steven"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$4 Vs. $46 Cinnamon Roll",
+     "name": "Nivea Roll",
+     "voters": []
+    }
+   ],
+   "lat": 35.141615,
+   "lng": -120.642402,
+   "name": "Old West Cinnamon Rolls",
+   "notes": null,
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJs0slZt1Y7IARey-vGGgHUuA"
+  },
+  {
    "address": "No. 57號, Lane 308, Guangfu South Road, Da’an District, Taipei City, Taiwan 106",
    "appearances": [
     {
@@ -979,6 +1274,117 @@
    "website": "https://g.page/CrustaceanBH?share"
   },
   {
+   "address": "1712 N Vermont Ave, Los Angeles, CA 90027",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2025-06-24",
+     "season": "New Channel",
+     "tier": "side",
+     "title": "$6 Vs. $18 Onions",
+     "video": "https://youtu.be/zlE_aIs4u0Y?t=553"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "3u8000",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$6 Vs. $18 Onions",
+     "name": "Onion Cocktail",
+     "voters": []
+    }
+   ],
+   "lat": 34.102196,
+   "lng": -118.291641,
+   "name": "Mírate",
+   "notes": null,
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJm4eLSVPBwoARog2JIXTPCx8"
+  },
+  {
+   "address": "3333 N Eastern Ave, Los Angeles, CA 90032",
+   "appearances": [
+    {
+     "episode": 9,
+     "published": "2025-12-22",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$7 Vs. $24 Burger",
+     "video": "https://youtu.be/EldGAOYFWWs?t=80"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "3yd3mk",
+   "items": [
+    {
+     "cost": 7.0,
+     "episode": "$7 Vs. $24 Burger",
+     "name": "McSatan (bacon cheeseburger on a corn tortilla)",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$7 Vs. $24 Burger",
+     "name": "Megadeth (2-lb torta-style burger)",
+     "voters": []
+    }
+   ],
+   "lat": 34.084622,
+   "lng": -118.178151,
+   "name": "Evil Cooks",
+   "notes": "Heavy-metal themed. One of Andrew/Steven picked the McSatan (speaker not identifiable from captions)",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJnxMXm9TFwoARWBCxYwxmLxo"
+  },
+  {
+   "address": "35-4 Insadong-gil, Jongno District, Seoul",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2024-07-05",
+     "season": "Travel Season: Korea",
+     "tier": "side",
+     "title": "We Eat Increasingly Spicy Food For 24 Hours",
+     "video": "https://youtu.be/sGtokRd0GdU?t=489"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "3z65kt",
+   "items": [
+    {
+     "cost": null,
+     "episode": "We Eat Increasingly Spicy Food For 24 Hours",
+     "name": "Kimchi-making class (cabbage kimchi)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Museum Kimchikan",
+   "notes": null,
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJmRrEV2qkfDURuWiyxriz8gs"
+  },
+  {
    "address": "1515 South La Brea Ave, Los Angeles, CA 90019",
    "appearances": [
     {
@@ -1014,6 +1420,51 @@
    "website": "https://www.leostacostruck.com/"
   },
   {
+   "address": "511 Yeongdong-daero, Gangnam District, Seoul (52F, COEX/Trade Tower)",
+   "appearances": [
+    {
+     "episode": 4,
+     "published": "2024-07-19",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Picky Eater Tries Raw Seafood in Korea",
+     "video": "https://youtu.be/A6YJtZmSpVw?t=673"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "41ohq3",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Picky Eater Tries Raw Seafood in Korea",
+     "name": "Raw Fish Tower",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Picky Eater Tries Raw Seafood in Korea",
+     "name": "Head-On Raw Prawns",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Picky Eater Tries Raw Seafood in Korea",
+     "name": "Oysters",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Crab 52",
+   "notes": "52nd floor seafood buffet",
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ7z-M8OWlfDURjn-AJyubOHg"
+  },
+  {
    "address": "B1F Gビル, 01, 1 Chome-19-5 Minamiikebukuro, Toshima City, Tokyo 171-0022, Japan",
    "appearances": [
     {
@@ -1047,6 +1498,62 @@
     "$"
    ],
    "website": "http://www.kura-corpo.co.jp/"
+  },
+  {
+   "address": "40 Kero Rd, Carlstadt, NJ 07072",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2025-08-22",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$1 Vs. $36 Instant Ramen",
+     "video": "https://youtu.be/hirHe0u-a8k?t=563"
+    },
+    {
+     "episode": 6,
+     "published": "2025-09-17",
+     "season": "New Channel",
+     "tier": "side",
+     "title": "$46 Michelin Star Ramen",
+     "video": "https://youtu.be/SZuBiRjrISo?t=294"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Carlstadt",
+   "closed": false,
+   "country": "USA",
+   "id": "46ugwr",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$1 Vs. $36 Instant Ramen",
+     "name": "Shoyu Ramen Kit",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$1 Vs. $36 Instant Ramen",
+     "name": "Tonkotsu Ramen Kit",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$46 Michelin Star Ramen",
+     "name": "Ramyun noodles (factory visit)",
+     "voters": []
+    }
+   ],
+   "lat": 40.827229,
+   "lng": -74.057604,
+   "name": "Sun Noodle New Jersey",
+   "notes": "Noodle factory; makes custom noodles for Ramen Ishida and TabeTomo (NYC)",
+   "tiers": [
+    "$$",
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJVVUVo0H4wokR7HcIPK-TnQ8"
   },
   {
    "address": "3809 Grand View Blvd, Los Angeles, CA 90066",
@@ -1154,6 +1661,43 @@
    "website": "http://www.kyubey.jp/en"
   },
   {
+   "address": "532 N Virginia St, Port Lavaca, TX 77979",
+   "appearances": [
+    {
+     "episode": 15,
+     "published": "2026-07-15",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$7 Vs. $192 Texas BBQ",
+     "video": "https://youtu.be/0xpEJ-ZKc50?t=875"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Port Lavaca",
+   "closed": false,
+   "country": "USA",
+   "id": "4feg34",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$7 Vs. $192 Texas BBQ",
+     "name": "Big Red Ribs",
+     "voters": [
+      "Adam"
+     ]
+    }
+   ],
+   "lat": 28.619124,
+   "lng": -96.63003,
+   "name": "LaVaca BBQ",
+   "notes": "Port Lavaca",
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJAdYAsWQPQoYR0FmfMyDf-E4"
+  },
+  {
    "address": "2218 Sawtelle Blvd, Los Angeles, CA 90064",
    "appearances": [
     {
@@ -1207,6 +1751,45 @@
    "website": "https://sushistop.com/"
   },
   {
+   "address": "75-1 Cheonggyecheon-ro, Jongno District, Seoul",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2024-07-05",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "We Eat Increasingly Spicy Food For 24 Hours",
+     "video": "https://youtu.be/sGtokRd0GdU?t=708"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "4g9qad",
+   "items": [
+    {
+     "cost": null,
+     "episode": "We Eat Increasingly Spicy Food For 24 Hours",
+     "name": "Spicy Stir-Fried Octopus (standard spice level)",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "We Eat Increasingly Spicy Food For 24 Hours",
+     "name": "Haemul-Pajeon",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Lee Kang Soon Silbi House",
+   "notes": "Octopus specialist since 1963; with guest Johnny Sheldrick",
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJlxDjqOiifDURjkxZe9Gtreg"
+  },
+  {
    "address": "12-6 Uguisudanicho, Shibuya City, Tokyo 150-0032, Japan",
    "appearances": [
     {
@@ -1240,6 +1823,41 @@
     "$$"
    ],
    "website": "https://www.facebook.com/coffeeelementaryschool/"
+  },
+  {
+   "address": "127 Bogwang-ro, Yongsan District, Seoul",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2024-06-28",
+     "season": "Travel Season: Korea",
+     "tier": "$$$",
+     "title": "$2 Vs. $50 Fried Chicken in Korea",
+     "video": "https://youtu.be/p1z4QSmZIyc?t=1056"
+    }
+   ],
+   "approx": false,
+   "chain": true,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "4js6wf",
+   "items": [
+    {
+     "cost": 50.0,
+     "episode": "$2 Vs. $50 Fried Chicken in Korea",
+     "name": "8-Course Chicken Prix Fixe (72,000 won)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Kyochon Pilbang",
+   "notes": "Kyochon's concept restaurant; courses incl. chicken bulgogi patty, chicken burger, chicken soup w/ stone pot rice, creme brulee",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ3Z9DalijfDURF9-yJz0H3xE"
   },
   {
    "address": "698 Vermont Ave, Los Angeles, CA 90005",
@@ -1345,6 +1963,41 @@
     "$"
    ],
    "website": "http://pienburger.com/"
+  },
+  {
+   "address": "730 Poinsettia St N Unit A, Santa Ana, CA 92701",
+   "appearances": [
+    {
+     "episode": 12,
+     "published": "2026-04-30",
+     "season": "New Channel",
+     "tier": "special",
+     "title": "$46 Breakfast Burrito",
+     "video": "https://youtu.be/b2c9_q8Dr7M?t=95"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Santa Ana",
+   "closed": false,
+   "country": "USA",
+   "id": "4xvfy2",
+   "items": [
+    {
+     "cost": 46.0,
+     "episode": "$46 Breakfast Burrito",
+     "name": "Burrito En Mojado",
+     "voters": []
+    }
+   ],
+   "lat": 33.752857,
+   "lng": -117.85984,
+   "name": "Le Hut Dinette",
+   "notes": "Sister diner of Heritage Barbecue",
+   "tiers": [
+    "special"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ___vtqDZ3IARaTBzCLCt5J4"
   },
   {
    "address": "No. 260號, Dongping Road, East District, Tainan City, Taiwan 701",
@@ -1646,6 +2299,41 @@
    "website": "https://goo.gl/maps/JyLUN9pQaE4ndLxSA"
   },
   {
+   "address": "722 N Glendale Ave, Glendale, CA 91206",
+   "appearances": [
+    {
+     "episode": 7,
+     "published": "2025-10-16",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$4 Vs. $125 Fried Seafood",
+     "video": "https://youtu.be/u6zZ-dbPpV4?t=56"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "5u4eij",
+   "items": [
+    {
+     "cost": 4.0,
+     "episode": "$4 Vs. $125 Fried Seafood",
+     "name": "Crunch Fried Jumbo Shrimp / Shrimp Taco",
+     "voters": []
+    }
+   ],
+   "lat": 34.156905,
+   "lng": -118.241069,
+   "name": "Fish King",
+   "notes": "Seafood market & kitchen; $4 is the title price",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJs-7sYK_BwoARnZZZBM9gKgo"
+  },
+  {
    "address": "3200 Sunset Blvd, Los Angeles, CA 90026",
    "appearances": [
     {
@@ -1816,6 +2504,41 @@
     "$$"
    ],
    "website": "https://goo.gl/maps/ueXHhdkbLKPcKdcu9"
+  },
+  {
+   "address": "2047 W Main St STE A4, League City, TX 77573",
+   "appearances": [
+    {
+     "episode": 16,
+     "published": "2026-08-19",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$4 Vs. $46 Cinnamon Roll",
+     "video": "https://youtu.be/SSdYyC0MZZU?t=1058"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "League City",
+   "closed": false,
+   "country": "USA",
+   "id": "69ecdi",
+   "items": [
+    {
+     "cost": 46.0,
+     "episode": "$4 Vs. $46 Cinnamon Roll",
+     "name": "10-lb Cinnamon Roll",
+     "voters": []
+    }
+   ],
+   "lat": 29.501293,
+   "lng": -95.117974,
+   "name": "Bonnie's Donuts",
+   "notes": null,
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ6V7vczSDQIYRBFNeFjryZqg"
   },
   {
    "address": "728 E 108th St, Los Angeles, CA 90059",
@@ -2116,6 +2839,49 @@
    "website": "https://goo.gl/maps/27fZR8jhiRuRgkmM7"
   },
   {
+   "address": "3665 Pacific Coast Hwy, Torrance, CA 90505",
+   "appearances": [
+    {
+     "episode": 10,
+     "published": "2026-01-22",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$8.50 Vs. $30 Pasta",
+     "video": "https://youtu.be/ahf7zqfBy4o?t=53"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "77y41e",
+   "items": [
+    {
+     "cost": 8.5,
+     "episode": "$8.50 Vs. $30 Pasta",
+     "name": "Napolitan",
+     "voters": [
+      "Adam"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$8.50 Vs. $30 Pasta",
+     "name": "Okinawa Pork Pasta",
+     "voters": []
+    }
+   ],
+   "lat": 33.805715,
+   "lng": -118.349262,
+   "name": "Pasta Stories",
+   "notes": "Inside Tokyo Central food court, Torrance",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJPVk7wVBL3YARZZzOztL_VaU"
+  },
+  {
    "address": "1348 Rue Beaubien E, Montréal, QC H2G 3A7, Canada",
    "appearances": [
     {
@@ -2151,6 +2917,92 @@
    "website": "http://www.poutineville.com/en/home.html"
   },
   {
+   "address": "3170 Glendale Blvd Unit C, Los Angeles, CA 90039",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2025-05-01",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$5 Vs. $59 Fried Rice",
+     "video": "https://youtu.be/KE9ozWobVz8?t=508"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "7ag4h4",
+   "items": [
+    {
+     "cost": 25.0,
+     "episode": "$5 Vs. $59 Fried Rice",
+     "name": "Dungeness Crab Fried Rice",
+     "voters": [
+      "Andrew"
+     ]
+    }
+   ],
+   "lat": 34.11712,
+   "lng": -118.261382,
+   "name": "Holy Basil",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJf7L3TdvBwoARDeaXHZL10Jw"
+  },
+  {
+   "address": "510 Vista Way, Oceanside, CA 92054",
+   "appearances": [
+    {
+     "episode": 9,
+     "published": "2025-12-22",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$7 Vs. $24 Burger",
+     "video": "https://youtu.be/EldGAOYFWWs?t=492"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Oceanside",
+   "closed": false,
+   "country": "USA",
+   "id": "7e7oke",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$7 Vs. $24 Burger",
+     "name": "Cheeseburger Salad",
+     "voters": [
+      "Adam"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$7 Vs. $24 Burger",
+     "name": "Tanner's Prime Fatty Patty (cookie & beef-tallow ice cream sandwich)",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$7 Vs. $24 Burger",
+     "name": "Beef Tallow Fries",
+     "voters": []
+    }
+   ],
+   "lat": 33.176653,
+   "lng": -117.351833,
+   "name": "Tanner's Prime Burgers",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ11GuNgBx3IARDafsIMvWYrg"
+  },
+  {
    "address": "1969 S King St, Honolulu, HI 96826",
    "appearances": [
     {
@@ -2184,6 +3036,50 @@
     "$$$"
    ],
    "website": "https://www.chefmavro.com/"
+  },
+  {
+   "address": "4341 Van Nuys Blvd, Sherman Oaks, CA 91403",
+   "appearances": [
+    {
+     "episode": 16,
+     "published": "2026-08-19",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$4 Vs. $46 Cinnamon Roll",
+     "video": "https://youtu.be/SSdYyC0MZZU?t=489"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "7mjhdr",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$4 Vs. $46 Cinnamon Roll",
+     "name": "Topping Rolls incl. \"The Outcast\" PB&J roll",
+     "voters": [
+      "Adam",
+      "Andrew"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$4 Vs. $46 Cinnamon Roll",
+     "name": "Gluten-Free Cinnamon Roll",
+     "voters": []
+    }
+   ],
+   "lat": 34.150303,
+   "lng": -118.449046,
+   "name": "All About The Cinnamon",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJz04uRgCXwoARSAEll6wrqQU"
   },
   {
    "address": "12148 Bellaire Blvd #101, Houston, TX 77072",
@@ -2312,6 +3208,114 @@
    "website": "https://www.perillala.com/"
   },
   {
+   "address": "70 Diamond St, Brooklyn, NY 11222",
+   "appearances": [
+    {
+     "episode": 17,
+     "published": "2026-09-25",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$5 Vs. $44 Caesar Salad",
+     "video": "https://youtu.be/8wUfa7HwuLI?t=49"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "New York",
+   "closed": false,
+   "country": "USA",
+   "id": "7wp1qt",
+   "items": [
+    {
+     "cost": 5.0,
+     "episode": "$5 Vs. $44 Caesar Salad",
+     "name": "Caesar Slice",
+     "voters": [
+      "Andrew",
+      "Steven"
+     ]
+    }
+   ],
+   "lat": 40.725085,
+   "lng": -73.94644,
+   "name": "Diamond Slice",
+   "notes": null,
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJGRaNcgBZwokRRz5j2tnzOdA"
+  },
+  {
+   "address": "406 W Belt Line Rd, Cedar Hill, TX 75104",
+   "appearances": [
+    {
+     "episode": 15,
+     "published": "2026-07-15",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$7 Vs. $192 Texas BBQ",
+     "video": "https://youtu.be/0xpEJ-ZKc50?t=79"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Cedar Hill",
+   "closed": false,
+   "country": "USA",
+   "id": "7yyki0",
+   "items": [
+    {
+     "cost": 7.0,
+     "episode": "$7 Vs. $192 Texas BBQ",
+     "name": "Brisket Taco",
+     "voters": []
+    }
+   ],
+   "lat": 32.589768,
+   "lng": -96.954929,
+   "name": "Mija Barbecue",
+   "notes": null,
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJbxjz6vuNToYRG4Rz-tDoy20"
+  },
+  {
+   "address": "858 N Vermont Ave, Los Angeles, CA 90029",
+   "appearances": [
+    {
+     "episode": 7,
+     "published": "2025-10-16",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$4 Vs. $125 Fried Seafood",
+     "video": "https://youtu.be/u6zZ-dbPpV4?t=602"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "84y9mi",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$4 Vs. $125 Fried Seafood",
+     "name": "The Cutter (fried fish sandwich)",
+     "voters": []
+    }
+   ],
+   "lat": 34.087001,
+   "lng": -118.291522,
+   "name": "Bridgetown Roti",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJne7Az-rHwoARQhCf1NoVpsY"
+  },
+  {
    "address": "17-14 Senjunakaicho, Adachi City, Tokyo 120-0035, Japan",
    "appearances": [
     {
@@ -2397,6 +3401,14 @@
      "tier": "side",
      "title": "$4 Dessert Vs. $235 Dessert",
      "video": "https://youtu.be/Bhos_P4a-JQ?t=644"
+    },
+    {
+     "episode": 2,
+     "published": "2025-05-30",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$1.50 Vs. $26 Potatoes",
+     "video": "https://youtu.be/-dUEF1E78Zs?t=1042"
     }
    ],
    "approx": false,
@@ -2411,6 +3423,14 @@
      "episode": "$4 Dessert Vs. $235 Dessert",
      "name": "Cheese Board",
      "voters": []
+    },
+    {
+     "cost": 26.0,
+     "episode": "$1.50 Vs. $26 Potatoes",
+     "name": "Loaded Potato Dumplings",
+     "voters": [
+      "Andrew"
+     ]
     }
    ],
    "lat": 34.144423,
@@ -2418,6 +3438,7 @@
    "name": "Agnes restaurant & cheesery",
    "notes": null,
    "tiers": [
+    "$$$",
     "side"
    ],
    "website": "https://goo.gl/maps/PxgPBCFfAg81xV4G9"
@@ -2459,6 +3480,45 @@
     "$$"
    ],
    "website": "https://goo.gl/maps/u8cbZ9L74KNkAZMJ6"
+  },
+  {
+   "address": "5 Chungmu-ro 4-gil, Jung District, Seoul (1F)",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2024-07-26",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "video": "https://youtu.be/vV2eTHg5zoM?t=268"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "8ufy3n",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Hanwoo Birria Tacos",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Mega Bomb Snack (walking nachos)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Oldies Tacos",
+   "notes": null,
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJl8qxkbqjfDURhsDxRr_ZnL0"
   },
   {
    "address": "2 Chome-386 Osakabe, Yao, Osaka 581-0015, Japan",
@@ -2605,6 +3665,41 @@
     "$$"
    ],
    "website": "https://g.page/Pikinico?share"
+  },
+  {
+   "address": "7837 Herschel Ave, La Jolla, CA 92037",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2025-06-24",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$6 Vs. $18 Onions",
+     "video": "https://youtu.be/zlE_aIs4u0Y?t=689"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "San Diego",
+   "closed": false,
+   "country": "USA",
+   "id": "9iqjem",
+   "items": [
+    {
+     "cost": 18.0,
+     "episode": "$6 Vs. $18 Onions",
+     "name": "Onion Tart",
+     "voters": []
+    }
+   ],
+   "lat": 32.846184,
+   "lng": -117.272658,
+   "name": "Le Coq",
+   "notes": "La Jolla French steakhouse",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJYctXDjcD3IARJ0W1AhdsRbI"
   },
   {
    "address": "19363 Livernois, Detroit, MI 48221",
@@ -3191,6 +4286,41 @@
    "website": "https://aplrestaurant.com/"
   },
   {
+   "address": "161-10 Seongmisan-ro, Mapo-gu, Seoul",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2024-06-28",
+     "season": "Travel Season: Korea",
+     "tier": "side",
+     "title": "$2 Vs. $50 Fried Chicken in Korea",
+     "video": "https://youtu.be/p1z4QSmZIyc"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "b511dv",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$2 Vs. $50 Fried Chicken in Korea",
+     "name": "Cafe stop (2D comic-style cafe)",
+     "voters": []
+    }
+   ],
+   "lat": 37.565252,
+   "lng": 126.923869,
+   "name": "Greem Cafe",
+   "notes": null,
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJEyMxlVqZfDURnzOEqb5B_mY"
+  },
+  {
    "address": "315 N Brand Blvd, Glendale, CA 91203",
    "appearances": [
     {
@@ -3442,6 +4572,57 @@
    "website": "http://www.lasa-la.com/"
   },
   {
+   "address": "46 Eoulmadang-ro 5-gil, Mapo-gu, Seoul (1F)",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2024-07-12",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Drinking Food vs Hangover Food in Korea",
+     "video": "https://youtu.be/ZKVWjydyOEA?t=853"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "bgfjzo",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Soju",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Truffle Gamja-jeon",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Abalone Knife-Cut Bibimmyeon",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Fried Boneless Chicken Feet",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Seogyo Judam",
+   "notes": null,
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJCWy3136ZfDURTfl1oKQV1t0"
+  },
+  {
    "address": "1539 Fishburn Ave, Los Angeles, CA 90063",
    "appearances": [
     {
@@ -3477,6 +4658,41 @@
     "$$"
    ],
    "website": "https://goo.gl/maps/dmiNKkbGVFzbfqJF8"
+  },
+  {
+   "address": "31721 Camino Capistrano, San Juan Capistrano, CA 92675",
+   "appearances": [
+    {
+     "episode": 12,
+     "published": "2026-04-30",
+     "season": "New Channel",
+     "tier": "side",
+     "title": "$46 Breakfast Burrito",
+     "video": "https://youtu.be/b2c9_q8Dr7M?t=18"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "San Juan Capistrano",
+   "closed": false,
+   "country": "USA",
+   "id": "biqpv7",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$46 Breakfast Burrito",
+     "name": "Smoked meats (used at Le Hut)",
+     "voters": []
+    }
+   ],
+   "lat": 33.502331,
+   "lng": -117.662932,
+   "name": "Heritage Barbecue",
+   "notes": null,
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJL8lLlgTx3IAR6iBVqzQiD-Y"
   },
   {
    "address": "13705 Ventura Blvd, Sherman Oaks, CA 91423",
@@ -3738,6 +4954,39 @@
    "website": "https://goo.gl/maps/BkN1xN1T9V5NzbtL6"
   },
   {
+   "address": "28 Yeonhui-ro 26-gil, Seodaemun-gu, Seoul",
+   "appearances": [
+    {
+     "episode": 4,
+     "published": "2024-07-19",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Picky Eater Tries Raw Seafood in Korea",
+     "video": "https://youtu.be/A6YJtZmSpVw?t=103"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "buqpzb",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Picky Eater Tries Raw Seafood in Korea",
+     "name": "Ganjang-Gejang (soy-marinated raw crab)",
+     "voters": []
+    }
+   ],
+   "lat": 37.572679,
+   "lng": 126.937057,
+   "name": "Gomijeong",
+   "notes": "Steven with producer Lizzie Lockard",
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJYy-Ko9CYfDURNlRVQMg8kz4"
+  },
+  {
    "address": "40 Seocho-daero 73-gil, Seocho 4(sa)-dong, Seocho-gu, Seoul, South Korea",
    "appearances": [
     {
@@ -3793,8 +5042,14 @@
    "items": [
     {
      "cost": 16.0,
-     "episode": null,
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
      "name": "Golden Nugget",
+     "voters": []
+    },
+    {
+     "cost": 50.0,
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
+     "name": "Feed Me Tasting Course",
      "voters": []
     }
    ],
@@ -3911,6 +5166,49 @@
     "special"
    ],
    "website": "http://www.pampas-grill.com/"
+  },
+  {
+   "address": "9537 Culver Blvd, Culver City, CA 90232",
+   "appearances": [
+    {
+     "episode": 8,
+     "published": "2025-11-17",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$6 Vs. $25 Chicken Wings",
+     "video": "https://youtu.be/zw6zt2iNDEE?t=1066"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "c89obg",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$6 Vs. $25 Chicken Wings",
+     "name": "Silver Dollar Cut Wing",
+     "voters": [
+      "Andrew"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$6 Vs. $25 Chicken Wings",
+     "name": "Hotcakes",
+     "voters": []
+    }
+   ],
+   "lat": 34.023136,
+   "lng": -118.394818,
+   "name": "Honey's Kettle Fried Chicken",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ4RFNpCm6woAR_z6Azd2jvmk"
   },
   {
    "address": "727 North Broadway #207, 2nd floor, Los Angeles, CA 90012",
@@ -4038,8 +5336,8 @@
    "items": [
     {
      "cost": 13.95,
-     "episode": null,
-     "name": "Shrimp & alligator sausage cheesecake",
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
+     "name": "Shrimp & Alligator Sausage Cheesecake",
      "voters": []
     }
    ],
@@ -4163,25 +5461,25 @@
    "address": "21084 LA-36, Covington, LA 70433",
    "appearances": [
     {
-     "episode": null,
-     "published": null,
-     "season": null,
+     "episode": 4,
+     "published": "2022-12-03",
+     "season": "10",
      "tier": "side",
-     "title": null,
+     "title": "$13 Shrimp Vs. $27 Shrimp",
      "video": "https://youtu.be/VS0oPwb3sag?si=B7BiU4UJC_HecIUa&t=1200"
     }
    ],
    "approx": false,
-   "chain": null,
-   "city": "Covington",
+   "chain": false,
+   "city": "New Orleans",
    "closed": false,
    "country": "USA",
    "id": "cxuou3",
    "items": [
     {
      "cost": null,
-     "episode": null,
-     "name": "Various beers",
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
+     "name": "Various Beers",
      "voters": []
     }
    ],
@@ -4321,6 +5619,76 @@
    "website": "https://g.page/gishbac?share"
   },
   {
+   "address": "5117 Kelvin Dr Ste 200, Houston, TX 77005",
+   "appearances": [
+    {
+     "episode": 17,
+     "published": "2026-09-25",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$5 Vs. $44 Caesar Salad",
+     "video": "https://youtu.be/8wUfa7HwuLI?t=943"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Houston",
+   "closed": false,
+   "country": "USA",
+   "id": "d15gew",
+   "items": [
+    {
+     "cost": 44.0,
+     "episode": "$5 Vs. $44 Caesar Salad",
+     "name": "Lee's Dinner: Martinis, Fries & Caesar Salad",
+     "voters": []
+    }
+   ],
+   "lat": 29.719635,
+   "lng": -95.416609,
+   "name": "Milton's & Lee's",
+   "notes": "Lee's is the bar next to Milton's",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJyxWFKgDBQIYRLTxfUq0C-cI"
+  },
+  {
+   "address": "Multiple locations in Texas (stop between Dallas and the coast)",
+   "appearances": [
+    {
+     "episode": 15,
+     "published": "2026-07-15",
+     "season": "New Channel",
+     "tier": "side",
+     "title": "$7 Vs. $192 Texas BBQ",
+     "video": "https://youtu.be/0xpEJ-ZKc50?t=562"
+    }
+   ],
+   "approx": false,
+   "chain": true,
+   "city": "Texas",
+   "closed": false,
+   "country": "USA",
+   "id": "d34va8",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$7 Vs. $192 Texas BBQ",
+     "name": "Road-trip stop",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Buc-ee's",
+   "notes": "Exact location not identified in the video",
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/search/?api=1&query=Buc-ee%27s+Multiple+locations+in+Texas+%28stop+between+Dallas+and+the+coast%29"
+  },
+  {
    "address": "8370 W 3rd St, Los Angeles, CA 90048",
    "appearances": [
     {
@@ -4424,6 +5792,39 @@
     "$$$"
    ],
    "website": "https://barclayprime.com/"
+  },
+  {
+   "address": "1509 Nambusunhwan-ro, Gwanak-gu, Seoul (1F)",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2024-07-05",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "We Eat Increasingly Spicy Food For 24 Hours",
+     "video": "https://youtu.be/sGtokRd0GdU?t=1119"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "dtg5r8",
+   "items": [
+    {
+     "cost": null,
+     "episode": "We Eat Increasingly Spicy Food For 24 Hours",
+     "name": "Spicy Tonkatsu Challenge (3 cutlets)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Onjeong Donkatsu",
+   "notes": null,
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJL43_DzOefDURD1CPhXenLio"
   },
   {
    "address": "115 Division St, New York, NY 10002",
@@ -4716,6 +6117,41 @@
    "website": "https://www.myhomestate.com/menu/"
   },
   {
+   "address": "131 Avenue A, New York, NY 10009",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2025-08-22",
+     "season": "New Channel",
+     "tier": "side",
+     "title": "$1 Vs. $36 Instant Ramen",
+     "video": "https://youtu.be/hirHe0u-a8k?t=791"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "New York",
+   "closed": false,
+   "country": "USA",
+   "id": "eqwhzg",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$1 Vs. $36 Instant Ramen",
+     "name": "Tsukemen (Sun Noodle custom noodles)",
+     "voters": []
+    }
+   ],
+   "lat": 40.72688,
+   "lng": -73.983115,
+   "name": "TabeTomo",
+   "notes": "Mentioned/featured via Sun Noodle",
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJMcrE97VZwokR6_VTjbNC-MI"
+  },
+  {
    "address": "83 N King St, Honolulu, HI 96817",
    "appearances": [
     {
@@ -4763,6 +6199,51 @@
    "website": "https://thepigandthelady.com/"
   },
   {
+   "address": "9-16 Yeonmujang 5-gil, Seongdong-gu, Seoul (B103)",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2024-07-26",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "video": "https://youtu.be/vV2eTHg5zoM?t=868"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "ewhe9h",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Nashville Hot Chicken Sandwich",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Chat Potatoes",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Caiman Beer Cheeseburger (seasonal)",
+     "voters": []
+    }
+   ],
+   "lat": 37.544418,
+   "lng": 127.052678,
+   "name": "Le Freak",
+   "notes": null,
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ577hF1elfDURkCAprPDPpHQ"
+  },
+  {
    "address": "28 Greenwich Ave, New York, NY 10011",
    "appearances": [
     {
@@ -4796,6 +6277,88 @@
     "$"
    ],
    "website": "https://mahzedahrbakery.com/#!/"
+  },
+  {
+   "address": "4566 W Washington Blvd, Los Angeles, CA 90016",
+   "appearances": [
+    {
+     "episode": 8,
+     "published": "2025-11-17",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$6 Vs. $25 Chicken Wings",
+     "video": "https://youtu.be/zw6zt2iNDEE?t=563"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "f1k4ax",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$6 Vs. $25 Chicken Wings",
+     "name": "Tebasaki (boneless stuffed wing)",
+     "voters": [
+      "Steven"
+     ]
+    }
+   ],
+   "lat": 34.039757,
+   "lng": -118.339135,
+   "name": "N/Soto",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJr7tV88a5woARABa1uEr3Mao"
+  },
+  {
+   "address": "66 Wausan-ro, Mapo-gu, Seoul (1F)",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2024-07-26",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "video": "https://youtu.be/vV2eTHg5zoM?t=571"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "ffiavm",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "American Burger Pizza",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Corn & Shrimp Pizza",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Traveling to Korea to Eat Tacos, Bagels, and Pizza",
+     "name": "Pepperoni Pasta",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "The Fitzza",
+   "notes": null,
+   "tiers": [],
+   "website": "https://www.google.com/maps/search/?api=1&query=The+Fitzza+66+Wausan-ro%2C+Mapo-gu%2C+Seoul+%281F%29"
   },
   {
    "address": "4632 Santa Monica Blvd, Los Angeles, CA 90029",
@@ -4923,8 +6486,20 @@
    "items": [
     {
      "cost": 27.0,
-     "episode": null,
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
      "name": "Barbecue Shrimp",
+     "voters": []
+    },
+    {
+     "cost": 12.0,
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
+     "name": "Fried Pickles",
+     "voters": []
+    },
+    {
+     "cost": 14.0,
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
+     "name": "Crawfish Beignets",
      "voters": []
     }
    ],
@@ -5043,6 +6618,47 @@
    "website": "http://www.sushi-shun.jp/"
   },
   {
+   "address": "3268 W 7th St, Fort Worth, TX 76107",
+   "appearances": [
+    {
+     "episode": 13,
+     "published": "2026-05-20",
+     "season": "New Channel",
+     "tier": "special",
+     "title": "$53 Guacamole Tacos",
+     "video": "https://youtu.be/kW9OKzep1lM?t=72"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Fort Worth",
+   "closed": false,
+   "country": "USA",
+   "id": "gaeiw3",
+   "items": [
+    {
+     "cost": 53.0,
+     "episode": "$53 Guacamole Tacos",
+     "name": "Guacamole w/ Ribeye Chicharron & Chapulines",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$53 Guacamole Tacos",
+     "name": "Fried Cactus Taco (w/ bacon)",
+     "voters": []
+    }
+   ],
+   "lat": 32.751327,
+   "lng": -97.36396,
+   "name": "Don Artemio Fort Worth",
+   "notes": null,
+   "tiers": [
+    "special"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJNQ8ebcBzToYRTHnBeeLXtIo"
+  },
+  {
    "address": "1135 Bell Rd, Antioch, TN 37013",
    "appearances": [
     {
@@ -5146,6 +6762,41 @@
     "$$"
    ],
    "website": "https://www.cosmopolitanlasvegas.com/restaurants/wicked-spoon"
+  },
+  {
+   "address": "370-1 Jong-ro, Jongno District, Seoul",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2024-06-28",
+     "season": "Travel Season: Korea",
+     "tier": "$",
+     "title": "$2 Vs. $50 Fried Chicken in Korea",
+     "video": "https://youtu.be/p1z4QSmZIyc?t=148"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "gyg8m0",
+   "items": [
+    {
+     "cost": 4.0,
+     "episode": "$2 Vs. $50 Fried Chicken in Korea",
+     "name": "Whole Fried Chicken (5,000 won)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Hankook Tongdak",
+   "notes": "Main branch. The episode's first stop (an unnamed spot) served ~$1.65 / 2,200 won chicken skewers.",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJw0sXNw6jfDURPbCeWpPSk1w"
   },
   {
    "address": "4 Chome-5-7 Roppongi, Minato City, Tokyo 106-0032, Japan",
@@ -5267,6 +6918,91 @@
    "website": "https://www.marriott.com/hotels/hotel-information/restaurant/nycsw-the-westin-new-york-at-times-square/"
   },
   {
+   "address": "8479 Melrose Ave, West Hollywood, CA 90069",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2025-05-01",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$5 Vs. $59 Fried Rice",
+     "video": "https://youtu.be/KE9ozWobVz8?t=809"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "h9yf5f",
+   "items": [
+    {
+     "cost": 59.0,
+     "episode": "$5 Vs. $59 Fried Rice",
+     "name": "Seafood Chaufa Paella",
+     "voters": []
+    }
+   ],
+   "lat": 34.082487,
+   "lng": -118.375851,
+   "name": "Rosaliné",
+   "notes": null,
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJIegyMbG-woAR5lAy62GLMN4"
+  },
+  {
+   "address": "1411 Echo Park Ave, Los Angeles, CA 90026",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2025-05-01",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$5 Vs. $59 Fried Rice",
+     "video": "https://youtu.be/KE9ozWobVz8?t=86"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "haz4km",
+   "items": [
+    {
+     "cost": 5.0,
+     "episode": "$5 Vs. $59 Fried Rice",
+     "name": "Side of Fried Rice",
+     "voters": [
+      "Adam",
+      "Steven"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$5 Vs. $59 Fried Rice",
+     "name": "Orange Chicken",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$5 Vs. $59 Fried Rice",
+     "name": "Fried Chicken",
+     "voters": []
+    }
+   ],
+   "lat": 34.078098,
+   "lng": -118.256611,
+   "name": "Combo A",
+   "notes": null,
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJB9tHQxzHwoARw-zgu8SFLXo"
+  },
+  {
    "address": "1178 Broadway, New York, NY 10001",
    "appearances": [
     {
@@ -5337,6 +7073,113 @@
    "website": "https://www.allsaintswine.com.au/"
   },
   {
+   "address": "1 Majang-ro 42-gil, Seongdong-gu, Seoul",
+   "appearances": [
+    {
+     "episode": 6,
+     "published": "2024-08-02",
+     "season": "Travel Season: Korea",
+     "tier": "$$$",
+     "title": "$16 vs. $292 Korean BBQ in Korea",
+     "video": "https://youtu.be/ISzxZiqo1ts?t=782"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "hf7947",
+   "items": [
+    {
+     "cost": 292.0,
+     "episode": "$16 vs. $292 Korean BBQ in Korea",
+     "name": "Hanwoo Beef Tasting Menu (~20 courses, per person)",
+     "voters": []
+    }
+   ],
+   "lat": 37.56679,
+   "lng": 127.044501,
+   "name": "Born & Bred",
+   "notes": "Speakeasy basement, Chef Kyunghwan Min",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ03uyyKqkfDURBP72STLlOHU"
+  },
+  {
+   "address": "379-15 Seongnae-dong, Gangdong-gu, Seoul",
+   "appearances": [
+    {
+     "episode": 6,
+     "published": "2024-08-02",
+     "season": "Travel Season: Korea",
+     "tier": "$",
+     "title": "$16 vs. $292 Korean BBQ in Korea",
+     "video": "https://youtu.be/ISzxZiqo1ts?t=91"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "hjc0mm",
+   "items": [
+    {
+     "cost": 16.0,
+     "episode": "$16 vs. $292 Korean BBQ in Korea",
+     "name": "Dwitgogi-Modum (trio of pork head cuts)",
+     "voters": []
+    }
+   ],
+   "lat": 37.52998,
+   "lng": 127.12875,
+   "name": "Imganae Dwitgogi",
+   "notes": null,
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJrb_JOYCvfDUR594ve1wd5gg"
+  },
+  {
+   "address": "631 Robertson Blvd, West Hollywood, CA 90069",
+   "appearances": [
+    {
+     "episode": 11,
+     "published": "2026-04-01",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$2 Vs. $27 Eggs",
+     "video": "https://youtu.be/ywtdupsYy9U?t=495"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "hpepqp",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$2 Vs. $27 Eggs",
+     "name": "Deviled Egg (with tuna)",
+     "voters": [
+      "Adam"
+     ]
+    }
+   ],
+   "lat": 34.081873,
+   "lng": -118.385538,
+   "name": "Darling by Sean Brock",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJTTI5GQC_woARGhe3mmTP-Qk"
+  },
+  {
    "address": "1500 Esplanade Ave, New Orleans, LA 70116",
    "appearances": [
     {
@@ -5357,8 +7200,14 @@
    "items": [
     {
      "cost": 13.25,
-     "episode": null,
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
      "name": "Fried Shrimp Po' Boy",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$13 Shrimp Vs. $27 Shrimp",
+     "name": "Bread Pudding",
      "voters": []
     }
    ],
@@ -5370,6 +7219,41 @@
     "$"
    ],
    "website": "https://maps.app.goo.gl/95BaFMeTzz9aWRq97"
+  },
+  {
+   "address": "9944 Waimea Rd, Waimea, HI 96796",
+   "appearances": [
+    {
+     "episode": 14,
+     "published": "2026-06-26",
+     "season": "New Channel",
+     "tier": "side",
+     "title": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "video": "https://youtu.be/5V-BvBA--fk?t=677"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Kauai",
+   "closed": false,
+   "country": "USA",
+   "id": "hri6kj",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Poi",
+     "voters": []
+    }
+   ],
+   "lat": 21.954483,
+   "lng": -159.665269,
+   "name": "Aloha Aina Poi Co.",
+   "notes": null,
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJp_Nvp58HB3wR5kKW8U1rl9I"
   },
   {
    "address": "171 1st Avenue, New York, NY 10003",
@@ -5602,6 +7486,41 @@
    "website": "https://www.scoopswestside.com/"
   },
   {
+   "address": "11633 Santa Monica Blvd, Los Angeles, CA 90025",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2025-05-30",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$1.50 Vs. $26 Potatoes",
+     "video": "https://youtu.be/-dUEF1E78Zs?t=786"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "iduugk",
+   "items": [
+    {
+     "cost": 20.0,
+     "episode": "$1.50 Vs. $26 Potatoes",
+     "name": "Lomo Saltado",
+     "voters": []
+    }
+   ],
+   "lat": 34.044416,
+   "lng": -118.454758,
+   "name": "Qusqo Bistro",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ2c6YEm-7woAR3NIR7EHwgFk"
+  },
+  {
    "address": "Japan, 〒604-8026 Kyoto, Nakagyo Ward, 四条上ル米屋町382‐2",
    "appearances": [
     {
@@ -5635,6 +7554,51 @@
     "side"
    ],
    "website": "https://www.create-restaurants.co.jp/shop/index.php?controller=FrontCrShop&action=shop_show&id=1106"
+  },
+  {
+   "address": "3 Hoenamu-ro, Yongsan District, Seoul",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2024-07-12",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Drinking Food vs Hangover Food in Korea",
+     "video": "https://youtu.be/ZKVWjydyOEA?t=231"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "iqvano",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "House Makgeolli",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Crepe Taco w/ Pulled Pork",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Stuffed Cuttlefish w/ Squid Ink Sauce",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Mr. Ahn's Craft Makgeolli",
+   "notes": null,
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJxRiox02ifDURTKtvmicQdHE"
   },
   {
    "address": "42 E 20th St, New York, NY 10003",
@@ -5790,6 +7754,72 @@
     "$"
    ],
    "website": "https://goo.gl/maps/3tP1LfqvZaJ9Lpk19"
+  },
+  {
+   "address": "3-7 Bukchon-ro 5na-gil, Jongno District, Seoul",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2024-07-12",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Drinking Food vs Hangover Food in Korea",
+     "video": "https://youtu.be/ZKVWjydyOEA?t=77"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "jllai3",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Cocktails",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Waoak",
+   "notes": "Bar in a centuries-old hanok, Samcheong-dong/Bukchon",
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJu_hsTcOjfDURLoNspC_5-dg"
+  },
+  {
+   "address": "32 Jong-ro 3-gil, Jongno District, Seoul",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2024-07-12",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "Drinking Food vs Hangover Food in Korea",
+     "video": "https://youtu.be/ZKVWjydyOEA?t=1501"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "jm7sgo",
+   "items": [
+    {
+     "cost": null,
+     "episode": "Drinking Food vs Hangover Food in Korea",
+     "name": "Yang Seonji Haejang-guk (hangover soup)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Cheong Jin Ok",
+   "notes": "Open since 1937",
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJyfkL8-uifDURGjR9tuiIbSo"
   },
   {
    "address": "254 Oneils Rd, Tabilk VIC 3608, Australia",
@@ -5967,6 +7997,82 @@
    "website": "http://www.districtonelv.com/"
   },
   {
+   "address": "5560 W Adams Blvd, Los Angeles, CA 90016",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2025-08-22",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$1 Vs. $36 Instant Ramen",
+     "video": "https://youtu.be/hirHe0u-a8k?t=1026"
+    }
+   ],
+   "approx": false,
+   "chain": true,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "k8i6je",
+   "items": [
+    {
+     "cost": 36.0,
+     "episode": "$1 Vs. $36 Instant Ramen",
+     "name": "Volcano Cup (Cup Noodle w/ short rib & godmother sauce)",
+     "voters": []
+    }
+   ],
+   "lat": 34.032526,
+   "lng": -118.349232,
+   "name": "Farmhouse Kitchen Thai Cuisine",
+   "notes": "Chain (also Bay Area/Portland); LA location assumed - not named in the video",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJH2mn_KO5woARQu3oO5i8uNw"
+  },
+  {
+   "address": "2090 Broadway, New York, NY 10023",
+   "appearances": [
+    {
+     "episode": 18,
+     "published": "2026-10-23",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$3.65 Vs. $39 Hot Dog • New York City",
+     "video": "https://youtu.be/oTA7CYtL7fA?t=27"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "New York",
+   "closed": false,
+   "country": "USA",
+   "id": "kdzk6e",
+   "items": [
+    {
+     "cost": 3.65,
+     "episode": "$3.65 Vs. $39 Hot Dog • New York City",
+     "name": "Frankfurter w/ Sauerkraut & Onion Sauce",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$3.65 Vs. $39 Hot Dog • New York City",
+     "name": "Papaya Drink",
+     "voters": []
+    }
+   ],
+   "lat": 40.778377,
+   "lng": -73.981575,
+   "name": "Gray's Papaya",
+   "notes": null,
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJlfr4bIpYwokRRazoMFwBzWo"
+  },
+  {
    "address": "225 N Canon Dr, Beverly Hills, CA 90212",
    "appearances": [
     {
@@ -6035,6 +8141,43 @@
     "$$$"
    ],
    "website": "https://3brothersbakery.com/"
+  },
+  {
+   "address": "4770 Melrose Ave, Los Angeles, CA 90029",
+   "appearances": [
+    {
+     "episode": 11,
+     "published": "2026-04-01",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$2 Vs. $27 Eggs",
+     "video": "https://youtu.be/ywtdupsYy9U?t=1078"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "kk3p9v",
+   "items": [
+    {
+     "cost": 27.0,
+     "episode": "$2 Vs. $27 Eggs",
+     "name": "Trout Roe Omelet Sandwich",
+     "voters": [
+      "Andrew"
+     ]
+    }
+   ],
+   "lat": 34.083453,
+   "lng": -118.304166,
+   "name": "Maison Matho",
+   "notes": "Steven's pick isn't clear from the captions",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ858dWBG5woARcobeWI7UQAE"
   },
   {
    "address": "1232 Rue de la Montagne, Montréal, QC H3G 1Z1, Canada",
@@ -6426,6 +8569,43 @@
     "$$"
    ],
    "website": "https://www.decoynyc.com/"
+  },
+  {
+   "address": "5668 York Blvd, Los Angeles, CA 90042",
+   "appearances": [
+    {
+     "episode": 10,
+     "published": "2026-01-22",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$8.50 Vs. $30 Pasta",
+     "video": "https://youtu.be/ahf7zqfBy4o?t=1025"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "ltit90",
+   "items": [
+    {
+     "cost": 30.0,
+     "episode": "$8.50 Vs. $30 Pasta",
+     "name": "Duck Duck Duck (duck carnitas linguine w/ epazote)",
+     "voters": [
+      "Steven"
+     ]
+    }
+   ],
+   "lat": 34.118924,
+   "lng": -118.194487,
+   "name": "Amiga Amore",
+   "notes": null,
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJk9DWflDFwoAR_WBu0_5LSyg"
   },
   {
    "address": "1104 Wilshire Blvd, Santa Monica, CA 90401",
@@ -7038,6 +9218,121 @@
    "website": "https://www.petrossian.com/new-york-boutique-cafe"
   },
   {
+   "address": "679 Greenwich St, New York, NY 10014",
+   "appearances": [
+    {
+     "episode": 6,
+     "published": "2025-09-17",
+     "season": "New Channel",
+     "tier": "special",
+     "title": "$46 Michelin Star Ramen",
+     "video": "https://youtu.be/SZuBiRjrISo?t=105"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "New York",
+   "closed": false,
+   "country": "USA",
+   "id": "ncfkne",
+   "items": [
+    {
+     "cost": 46.0,
+     "episode": "$46 Michelin Star Ramen",
+     "name": "Wagyu Ramyun",
+     "voters": []
+    }
+   ],
+   "lat": 40.733037,
+   "lng": -74.007343,
+   "name": "Jeju Noodle Bar",
+   "notes": "Michelin-starred noodle bar",
+   "tiers": [
+    "special"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJvSw_uuxZwokRwESVzh5G33s"
+  },
+  {
+   "address": "12155 6th St, Rancho Cucamonga, CA 91730",
+   "appearances": [
+    {
+     "episode": 5,
+     "published": "2025-08-22",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$1 Vs. $36 Instant Ramen",
+     "video": "https://youtu.be/hirHe0u-a8k?t=66"
+    }
+   ],
+   "approx": false,
+   "chain": true,
+   "city": "Rancho Cucamonga",
+   "closed": false,
+   "country": "USA",
+   "id": "nctew6",
+   "items": [
+    {
+     "cost": 1.0,
+     "episode": "$1 Vs. $36 Instant Ramen",
+     "name": "Shin Ramyun",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$1 Vs. $36 Instant Ramen",
+     "name": "Toomba Shin Ramyun",
+     "voters": []
+    }
+   ],
+   "lat": 34.085662,
+   "lng": -117.540121,
+   "name": "Nongshim USA (factory)",
+   "notes": "Factory visit (offers free public tours)",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJe0bhjnpKw4ARG02lzDeDNDg"
+  },
+  {
+   "address": "905 E 2nd St #109, Los Angeles, CA 90012",
+   "appearances": [
+    {
+     "episode": 7,
+     "published": "2025-10-16",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$4 Vs. $125 Fried Seafood",
+     "video": "https://youtu.be/u6zZ-dbPpV4?t=1058"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "nd7h37",
+   "items": [
+    {
+     "cost": 125.0,
+     "episode": "$4 Vs. $125 Fried Seafood",
+     "name": "Tasting Menu incl. Fried Lobster Course",
+     "voters": [
+      "Adam",
+      "Andrew",
+      "Steven"
+     ]
+    }
+   ],
+   "lat": 34.047851,
+   "lng": -118.235167,
+   "name": "Baroo",
+   "notes": "Steven first said \"all three\" before picking Baroo",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJLzot2bK4woARTUKV7UcnVz4"
+  },
+  {
    "address": "5732 Melrose Ave, Hollywood, CA 90004",
    "appearances": [
     {
@@ -7336,6 +9631,43 @@
    "website": "https://www.ivars.com/locations/salmon-house"
   },
   {
+   "address": "2150 E South St #105, Long Beach, CA 90805",
+   "appearances": [
+    {
+     "episode": 8,
+     "published": "2025-11-17",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$6 Vs. $25 Chicken Wings",
+     "video": "https://youtu.be/zw6zt2iNDEE?t=44"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Long Beach",
+   "closed": false,
+   "country": "USA",
+   "id": "o00b3z",
+   "items": [
+    {
+     "cost": 6.0,
+     "episode": "$6 Vs. $25 Chicken Wings",
+     "name": "Wings: Cambodian Dirt, Water Buffalo, Dirty Elvis",
+     "voters": [
+      "Adam"
+     ]
+    }
+   ],
+   "lat": 33.860053,
+   "lng": -118.166923,
+   "name": "Shlap Muan Chicken Wings",
+   "notes": "Adam loved the free 13th \"baker's dozen\" wing",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJQXPAjq0z3YAR5x6kNUAPIRk"
+  },
+  {
    "address": "38 E 19th St, New York, NY 10003",
    "appearances": [
     {
@@ -7437,6 +9769,41 @@
     "$$"
    ],
    "website": "https://www.redroosterharlem.com/"
+  },
+  {
+   "address": "400 S Atlantic Blvd #200, Monterey Park, CA 91754",
+   "appearances": [
+    {
+     "episode": 11,
+     "published": "2026-04-01",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$2 Vs. $27 Eggs",
+     "video": "https://youtu.be/ywtdupsYy9U?t=54"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "ob3etl",
+   "items": [
+    {
+     "cost": 2.3,
+     "episode": "$2 Vs. $27 Eggs",
+     "name": "Po Tart (milk custard tart)",
+     "voters": []
+    }
+   ],
+   "lat": 34.058071,
+   "lng": -118.133872,
+   "name": "Jim's Bakery",
+   "notes": "Monterey Park",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJi8BUrs3FwoARbwV181HUjpY"
   },
   {
    "address": "2nd Ave &, Pike St, Seattle, WA 98111",
@@ -7559,6 +9926,49 @@
     "$$$"
    ],
    "website": "https://www.wolfgangpuck.com/dining/spago/"
+  },
+  {
+   "address": "1122 Centinela Ave, Inglewood, CA 90302",
+   "appearances": [
+    {
+     "episode": 10,
+     "published": "2026-01-22",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$8.50 Vs. $30 Pasta",
+     "video": "https://youtu.be/ahf7zqfBy4o?t=570"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "okn296",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$8.50 Vs. $30 Pasta",
+     "name": "Rigatoni",
+     "voters": [
+      "Andrew"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$8.50 Vs. $30 Pasta",
+     "name": "Bucatini",
+     "voters": []
+    }
+   ],
+   "lat": 33.976345,
+   "lng": -118.357883,
+   "name": "Sunday Gravy",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJh4nD6y-3woARL7c-WEyafEc"
   },
   {
    "address": "2900 Travis St, Houston, TX 77006",
@@ -7740,6 +10150,41 @@
     "$$$"
    ],
    "website": "https://goo.gl/maps/JEaRUP7RuokEemReA"
+  },
+  {
+   "address": "12 Namdaemun-ro, Jung District, Seoul",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2024-07-05",
+     "season": "Travel Season: Korea",
+     "tier": "side",
+     "title": "We Eat Increasingly Spicy Food For 24 Hours",
+     "video": "https://youtu.be/sGtokRd0GdU?t=626"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "p3spf4",
+   "items": [
+    {
+     "cost": null,
+     "episode": "We Eat Increasingly Spicy Food For 24 Hours",
+     "name": "Hotteok (sweet seed, red bean, japchae)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Namdaemun Market Hotteok",
+   "notes": "Street vendor in Namdaemun Market",
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ42QG7PSifDUR034pxsyjnZo"
   },
   {
    "address": "12565 W Washington Blvd, Los Angeles, CA 90066",
@@ -8171,6 +10616,79 @@
    "website": "https://www.shakeshack.com/food-and-drink/"
   },
   {
+   "address": "12233 Ranch Rd 620 N Ste 105, Austin, TX 78750",
+   "appearances": [
+    {
+     "episode": 15,
+     "published": "2026-07-15",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$7 Vs. $192 Texas BBQ",
+     "video": "https://youtu.be/0xpEJ-ZKc50?t=1393"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Austin",
+   "closed": false,
+   "country": "USA",
+   "id": "qc6kmp",
+   "items": [
+    {
+     "cost": 192.0,
+     "episode": "$7 Vs. $192 Texas BBQ",
+     "name": "Full Tray incl. Sausage Trio & Peach Tea Pork Belly",
+     "voters": [
+      "Andrew",
+      "Steven"
+     ]
+    }
+   ],
+   "lat": 30.461458,
+   "lng": -97.815175,
+   "name": "Interstellar BBQ",
+   "notes": "Austin",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJneGxbHszW4YRTjsORksF0Xw"
+  },
+  {
+   "address": "155 W Houston St, New York, NY 10012",
+   "appearances": [
+    {
+     "episode": 18,
+     "published": "2026-10-23",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$3.65 Vs. $39 Hot Dog • New York City",
+     "video": "https://youtu.be/oTA7CYtL7fA?t=376"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "New York",
+   "closed": false,
+   "country": "USA",
+   "id": "qemrpl",
+   "items": [
+    {
+     "cost": 8.0,
+     "episode": "$3.65 Vs. $39 Hot Dog • New York City",
+     "name": "Chili Dog (approx. price per Adam)",
+     "voters": []
+    }
+   ],
+   "lat": 40.727933,
+   "lng": -74.001744,
+   "name": "Hamburger America",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJF8menphZwokR09y2oKUn8HQ"
+  },
+  {
    "address": "687 Tochiya, Chichibu, Saitama 368-0002, Japan",
    "appearances": [
     {
@@ -8206,6 +10724,49 @@
    "website": "http://www.akuafarm.com/kagayaki/index.html"
   },
   {
+   "address": "1027 Alpine St Bldg E, Los Angeles, CA 90012",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2025-05-30",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$1.50 Vs. $26 Potatoes",
+     "video": "https://youtu.be/-dUEF1E78Zs?t=465"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "ql6fbo",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$1.50 Vs. $26 Potatoes",
+     "name": "Potato Salad",
+     "voters": [
+      "Adam"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$1.50 Vs. $26 Potatoes",
+     "name": "Cod",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Perilla LA",
+   "notes": "Now at Alpine St (Chinatown); was the 661 S Harvard pop-up in the picnic episode. Adam named the cod as his pick",
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJsSNupLe5woARgIO3oWlJ9ps"
+  },
+  {
    "address": "170 N La Brea Ave, Inglewood, CA 90301",
    "appearances": [
     {
@@ -8239,6 +10800,45 @@
     "side"
    ],
    "website": "https://goo.gl/maps/RPQ51qQnoydGnnvR9"
+  },
+  {
+   "address": "3 Dohwa 2-gil, Mapo-gu, Seoul",
+   "appearances": [
+    {
+     "episode": 2,
+     "published": "2024-07-05",
+     "season": "Travel Season: Korea",
+     "tier": null,
+     "title": "We Eat Increasingly Spicy Food For 24 Hours",
+     "video": "https://youtu.be/sGtokRd0GdU?t=143"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "qs6ix5",
+   "items": [
+    {
+     "cost": null,
+     "episode": "We Eat Increasingly Spicy Food For 24 Hours",
+     "name": "Tteokbokki",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "We Eat Increasingly Spicy Food For 24 Hours",
+     "name": "Fish Cake Soup",
+     "voters": []
+    }
+   ],
+   "lat": 37.54034,
+   "lng": 126.948791,
+   "name": "Mapo Original Tteokbokki",
+   "notes": "Dohwa-dong shop open since the 1990s",
+   "tiers": [],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJBdEw2E2ZfDUR3xvTNRmt9WY"
   },
   {
    "address": "3239 Helms Ave, Culver City, CA 90232",
@@ -8323,6 +10923,56 @@
    "website": "https://g.page/tesserestaurant?share"
   },
   {
+   "address": "3082 Peleke St #101, Lihue, HI 96766",
+   "appearances": [
+    {
+     "episode": 14,
+     "published": "2026-06-26",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "video": "https://youtu.be/5V-BvBA--fk?t=96"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Kauai",
+   "closed": false,
+   "country": "USA",
+   "id": "r0okm4",
+   "items": [
+    {
+     "cost": 6.72,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Seaweed Poke (title price)",
+     "voters": [
+      "Adam",
+      "Andrew"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Ahi Katsu",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Mac Salad",
+     "voters": []
+    }
+   ],
+   "lat": 21.966493,
+   "lng": -159.355652,
+   "name": "Lawai'a Fish Co.",
+   "notes": "Kauaʻi. $6.72 is the title price",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJq_Q6qDwfB3wRygHh12QgAVY"
+  },
+  {
    "address": "130 E 7th St, New York, NY 10009",
    "appearances": [
     {
@@ -8391,6 +11041,41 @@
     "side"
    ],
    "website": "https://goo.gl/maps/jqz2MKeW7aPBCuLt5"
+  },
+  {
+   "address": "4880 Fountain Ave, Los Angeles, CA 90029",
+   "appearances": [
+    {
+     "episode": 9,
+     "published": "2025-12-22",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$7 Vs. $24 Burger",
+     "video": "https://youtu.be/EldGAOYFWWs?t=874"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "riq727",
+   "items": [
+    {
+     "cost": 24.0,
+     "episode": "$7 Vs. $24 Burger",
+     "name": "Tartare Burger w/ Onion Rings",
+     "voters": []
+    }
+   ],
+   "lat": 34.095321,
+   "lng": -118.295603,
+   "name": "Found Oyster",
+   "notes": "One of Andrew/Steven picked this (\"I'm a tartare guy\")",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJkfUoRk_HwoARyBuvtlImPoQ"
   },
   {
    "address": "609 S Spring St, Los Angeles, CA 90014",
@@ -8516,6 +11201,92 @@
     "special"
    ],
    "website": "https://www.thepieholela.com/"
+  },
+  {
+   "address": "65-1227 Opelo Rd B, Waimea, HI 96743",
+   "appearances": [
+    {
+     "episode": 14,
+     "published": "2026-06-26",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "video": "https://youtu.be/5V-BvBA--fk?t=1520"
+    }
+   ],
+   "approx": false,
+   "chain": true,
+   "city": "Waimea (Big Island)",
+   "closed": false,
+   "country": "USA",
+   "id": "s0trpz",
+   "items": [
+    {
+     "cost": 116.0,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Macadamia Nut Crusted Fish & Kanpachi meal (title price)",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Beet Salad",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Mai Tai",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Merriman's Waimea",
+   "notes": null,
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ_ZMiS-CpB3wRAphT0zonmcA"
+  },
+  {
+   "address": "9 W 53rd St, New York, NY 10019",
+   "appearances": [
+    {
+     "episode": 18,
+     "published": "2026-10-23",
+     "season": "New Channel",
+     "tier": "$$$",
+     "title": "$3.65 Vs. $39 Hot Dog • New York City",
+     "video": "https://youtu.be/oTA7CYtL7fA?t=812"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "New York",
+   "closed": false,
+   "country": "USA",
+   "id": "s1sysa",
+   "items": [
+    {
+     "cost": 39.0,
+     "episode": "$3.65 Vs. $39 Hot Dog • New York City",
+     "name": "Caviar Hot Dog",
+     "voters": [
+      "Adam",
+      "Andrew",
+      "Steven"
+     ]
+    }
+   ],
+   "lat": 40.761189,
+   "lng": -73.977009,
+   "name": "The Modern",
+   "notes": "The Bar Room at The Modern, MoMA",
+   "tiers": [
+    "$$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJMW-gxPtYwokRzDlnsRgq9rA"
   },
   {
    "address": "3655 S Las Vegas Blvd, Las Vegas, NV 89109",
@@ -8658,6 +11429,49 @@
    "website": "https://goo.gl/maps/Nkzw6AyRXGSWjxg59"
   },
   {
+   "address": "75-5864 Walua Rd, Kailua-Kona, HI 96740",
+   "appearances": [
+    {
+     "episode": 14,
+     "published": "2026-06-26",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "video": "https://youtu.be/5V-BvBA--fk?t=918"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Kailua-Kona",
+   "closed": false,
+   "country": "USA",
+   "id": "sp1hjt",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Kanpachi Five Ways",
+     "voters": [
+      "Steven"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$6.72 Vs. $116 Fish in Hawaiʻi",
+     "name": "Sardinian Ramen",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "The Walua Social Club",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJg4zPkB0PVHkR0-w24gK6h18"
+  },
+  {
    "address": "4-1 Kioicho, Chiyoda City, Tokyo 102-0094, Japan",
    "appearances": [
     {
@@ -8781,6 +11595,49 @@
    "website": "http://kichi2.net/"
   },
   {
+   "address": "1104 Port Neches Ave, Port Neches, TX 77651",
+   "appearances": [
+    {
+     "episode": 17,
+     "published": "2026-09-25",
+     "season": "New Channel",
+     "tier": "$$",
+     "title": "$5 Vs. $44 Caesar Salad",
+     "video": "https://youtu.be/8wUfa7HwuLI?t=491"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Port Neches",
+   "closed": false,
+   "country": "USA",
+   "id": "ssuyso",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$5 Vs. $44 Caesar Salad",
+     "name": "Caesar Slaw",
+     "voters": [
+      "Adam"
+     ]
+    },
+    {
+     "cost": null,
+     "episode": "$5 Vs. $44 Caesar Salad",
+     "name": "Cornbread Pudding",
+     "voters": []
+    }
+   ],
+   "lat": 29.991765,
+   "lng": -93.958377,
+   "name": "Redbird BBQ",
+   "notes": null,
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJ4UzltbixPoYRF5Y3YgWm6C4"
+  },
+  {
    "address": "1000 South La Brea Ave, Los Angeles, CA 90019",
    "appearances": [
     {
@@ -8886,6 +11743,41 @@
    "website": "https://goo.gl/maps/h6nCPzSgaiQUQJft7"
   },
   {
+   "address": "411-34 Toegye-ro, Jung District, Seoul (Sindang main branch, 1F)",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2024-06-28",
+     "season": "Travel Season: Korea",
+     "tier": "$$",
+     "title": "$2 Vs. $50 Fried Chicken in Korea",
+     "video": "https://youtu.be/p1z4QSmZIyc?t=538"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "t2vsiz",
+   "items": [
+    {
+     "cost": 16.0,
+     "episode": "$2 Vs. $50 Fried Chicken in Korea",
+     "name": "Newtro Fried Chicken Order (20,800 won)",
+     "voters": []
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "name": "Balladak",
+   "notes": "Sindang main branch",
+   "tiers": [
+    "$$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJTVLotjijfDURwOCZa8O719Q"
+  },
+  {
    "address": "641 N Highland Ave, Los Angeles, CA 90036",
    "appearances": [
     {
@@ -8964,6 +11856,47 @@
    "website": "https://goo.gl/maps/Tj8dsqCGK4nMBpNCA"
   },
   {
+   "address": "10 Seongdeokjeong 9-gil, Seongdong-gu, Seoul",
+   "appearances": [
+    {
+     "episode": 1,
+     "published": "2024-06-28",
+     "season": "Travel Season: Korea",
+     "tier": "side",
+     "title": "$2 Vs. $50 Fried Chicken in Korea",
+     "video": "https://youtu.be/p1z4QSmZIyc?t=401"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Seoul",
+   "closed": false,
+   "country": "Korea",
+   "id": "tjc0zj",
+   "items": [
+    {
+     "cost": null,
+     "episode": "$2 Vs. $50 Fried Chicken in Korea",
+     "name": "Corn Cream Latte",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$2 Vs. $50 Fried Chicken in Korea",
+     "name": "Black Sesame Yakgwa Cookies",
+     "voters": []
+    }
+   ],
+   "lat": 37.539189,
+   "lng": 127.049881,
+   "name": "Highline Cafe",
+   "notes": null,
+   "tiers": [
+    "side"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJqzFI6XKlfDURAVFt9IfmxoE"
+  },
+  {
    "address": "11011 W Charleston Blvd, Las Vegas, NV 89135",
    "appearances": [
     {
@@ -9032,6 +11965,47 @@
     "$$$"
    ],
    "website": "https://www.caesars.com/ballys-las-vegas/restaurants/sterling-brunch"
+  },
+  {
+   "address": "2311 E Cesar E Chavez Ave, Los Angeles, CA 90033",
+   "appearances": [
+    {
+     "episode": 3,
+     "published": "2025-06-24",
+     "season": "New Channel",
+     "tier": "$",
+     "title": "$6 Vs. $18 Onions",
+     "video": "https://youtu.be/zlE_aIs4u0Y?t=42"
+    }
+   ],
+   "approx": false,
+   "chain": false,
+   "city": "Los Angeles",
+   "closed": false,
+   "country": "USA",
+   "id": "tw6bbq",
+   "items": [
+    {
+     "cost": 6.0,
+     "episode": "$6 Vs. $18 Onions",
+     "name": "Onion Rings (small; large is $8)",
+     "voters": []
+    },
+    {
+     "cost": null,
+     "episode": "$6 Vs. $18 Onions",
+     "name": "Burgers",
+     "voters": []
+    }
+   ],
+   "lat": 34.048646,
+   "lng": -118.211941,
+   "name": "George's Burger Stand",
+   "notes": "Boyle Heights. No favorites picked this episode",
+   "tiers": [
+    "$"
+   ],
+   "website": "https://www.google.com/maps/place/?q=place_id:ChIJl7QIrYrHwoARY75xpy5zGgM"
   },
   {
    "address": "834 S Grand Ave, Los Angeles, CA 90017",
