@@ -89,6 +89,7 @@ class Restaurant:
     lat: float | None = None
     lng: float | None = None
     coords_from_sheet: bool = False
+    approx: bool = False  # pin is on the right street/area, not the exact door
 
     @property
     def tiers(self) -> list[str]:

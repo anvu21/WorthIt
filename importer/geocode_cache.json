@@ -27,13 +27,26 @@
   "query": "1011 Decatur St, New Orleans, LA 70116"
  },
  "105 taiwan taipei city songshan district alley 4 lane 36 section 5 minsheng east road 1號1樓": {
-  "failed": true
+  "approx": true,
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.058396,
+  "lng": 121.557487,
+  "query": "Minsheng East Road Section 5, Taipei, Taiwan"
  },
  "106 taiwan taipei city da’an district section 4 zhongxiao east road 97號b1樓": {
-  "failed": true
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.041725,
+  "lng": 121.547804,
+  "query": "97 Zhongxiao East Road Section 4, Taipei, Taiwan"
  },
  "106 taiwan taipei city da’an district wenchang street 47號1f": {
-  "failed": true
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.03293,
+  "lng": 121.550527,
+  "query": "47 Wenchang Street, Taipei, Taiwan"
  },
  "107 w 9th st los angeles ca 90015": {
   "city": "Los Angeles",
@@ -883,7 +896,11 @@
   "query": "4036 S Braeswood Blvd, Houston, TX 77025"
  },
  "407 taiwan taichung city xitun district section 3 henan road 120號b1樓": {
-  "failed": true
+  "city": "Taichung",
+  "country": "Taiwan",
+  "lat": 24.164303,
+  "lng": 120.637767,
+  "query": "120 Henan Road Section 3, Taichung, Taiwan"
  },
  "4163 w 5th st los angeles ca 90020": {
   "city": "Los Angeles",
@@ -1243,7 +1260,11 @@
   "query": "727 N Broadway, Los Angeles, CA 90012"
  },
  "727 north broadway 207 2nd floor los angeles ca 90012": {
-  "failed": true
+  "city": "Los Angeles",
+  "country": "USA",
+  "lat": 34.061409,
+  "lng": -118.239245,
+  "query": "727 North Broadway, Los Angeles, CA 90012"
  },
  "728 e 108th st los angeles ca 90059": {
   "city": "Los Angeles",
@@ -1442,7 +1463,11 @@
   "query": "9500 Wilshire Blvd, Beverly Hills, CA 90212"
  },
  "9882 south santa monica boulevard ground floor beverly hills ca 90212": {
-  "failed": true
+  "city": "Beverly Hills",
+  "country": "USA",
+  "lat": 34.067935,
+  "lng": -118.408252,
+  "query": "9882 South Santa Monica Boulevard, Beverly Hills, CA 90212"
  },
  "america mura 1 chome higashishinsaibashi chuo ward osaka 542 0086 japan": {
   "failed": true
@@ -1455,7 +1480,11 @@
   "query": "Kura Sushi, Tokyo 171-0022,  Japan"
  },
  "downstairs 529 1 2 hudson st new york ny 10014": {
-  "failed": true
+  "city": "New York",
+  "country": "USA",
+  "lat": 40.723474,
+  "lng": -74.008003,
+  "query": "529-1/2 Hudson St, New York, NY"
  },
  "japan 〒110 0005 tokyo taito city ueno 5 chome−25−8 グランディールビル御徒町１ｆ": {
   "city": "Taito",
@@ -1485,34 +1514,73 @@
   "query": "Silks, Melbourne, Australia"
  },
  "no 189 section 3 tingzhou road zhongzheng district taipei city taiwan 100": {
-  "failed": true
+  "approx": true,
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.020973,
+  "lng": 121.525468,
+  "query": "189 Tingzhou Road Section 3, Taipei, Taiwan"
  },
  "no 194號 section 2 xinyi road da’an district taipei city taiwan 106": {
-  "failed": true
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.034125,
+  "lng": 121.528592,
+  "query": "194 Xinyi Road Section 2, Taipei, Taiwan"
  },
  "no 260號 dongping road east district tainan city taiwan 701": {
-  "failed": true
+  "city": "Tainan",
+  "country": "Taiwan",
+  "lat": 22.995566,
+  "lng": 120.226487,
+  "query": "260 Dongping Road, Tainan, Taiwan"
  },
  "no 2號 lane 12 jingchengba street west district taichung city taiwan 403": {
   "failed": true
  },
  "no 361號 zhongzheng road east district chiayi city taiwan 600": {
-  "failed": true
+  "city": "Chiayi",
+  "country": "Taiwan",
+  "lat": 23.478809,
+  "lng": 120.450026,
+  "query": "361 Zhongzheng Road, Chiayi, Taiwan"
  },
  "no 3號 lane 39 section 2 zhongshan north road zhongshan district taipei city taiwan 104": {
-  "failed": true
+  "approx": true,
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.061519,
+  "lng": 121.522785,
+  "query": "Zhongshan North Road Section 2, Taipei, Taiwan"
  },
  "no 46號 cunzhong street west district taichung city taiwan 403": {
-  "failed": true
+  "city": "Taichung",
+  "country": "Taiwan",
+  "lat": 24.141703,
+  "lng": 120.658444,
+  "query": "46 Cunzhong Street, Taichung, Taiwan"
  },
  "no 525 section 1 zhongzheng road rende district tainan city taiwan 717": {
-  "failed": true
+  "city": "Tainan",
+  "country": "Taiwan",
+  "lat": 22.937692,
+  "lng": 120.247765,
+  "query": "525 Zhongzheng Road Section 1, Tainan, Taiwan"
  },
  "no 533號 section 3 hai an road north district tainan city taiwan 704": {
-  "failed": true
+  "city": "Tainan",
+  "country": "Taiwan",
+  "lat": 23.010394,
+  "lng": 120.199572,
+  "query": "533 Hai'an Road Section 3, Tainan, Taiwan"
  },
  "no 57號 lane 308 guangfu south road da’an district taipei city taiwan 106": {
-  "failed": true
+  "approx": true,
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.045189,
+  "lng": 121.557819,
+  "query": "Guangfu South Road, Taipei, Taiwan"
  },
  "one california plaza 300 s grand ave los angeles ca 90071": {
   "city": "Los Angeles",
@@ -1522,10 +1590,19 @@
   "query": "One California Plaza, 300 S Grand Ave, Los Angeles, CA"
  },
  "raohe street songshan district taipei city taiwan 105": {
-  "failed": true
+  "city": "Taipei",
+  "country": "Taiwan",
+  "lat": 25.050679,
+  "lng": 121.575977,
+  "query": "Raohe Night Market, Taipei, Taiwan"
  },
  "sanxing township yilan county taiwan 266": {
-  "failed": true
+  "approx": true,
+  "city": "Sanxing",
+  "country": "Taiwan",
+  "lat": 24.665963,
+  "lng": 121.653229,
+  "query": "Sanxing, Yilan, Taiwan"
  },
  "south korea seoul gwangjin gu walkerhill ro 177 광장동 워커힐로 177 광진구 서울특별시 kr 04963": {
   "failed": true
@@ -1534,9 +1611,17 @@
   "failed": true
  },
  "the chelsea tower 3708 las vegas blvd s level 2 las vegas nv 89109": {
-  "failed": true
+  "city": "Las Vegas",
+  "country": "USA",
+  "lat": 36.110157,
+  "lng": -115.174092,
+  "query": "3708 Las Vegas Blvd S, Las Vegas, NV"
  },
  "the chelsea tower 3708 s las vegas blvd level 2 las vegas nv 89109": {
-  "failed": true
+  "city": "Las Vegas",
+  "country": "USA",
+  "lat": 36.110157,
+  "lng": -115.174092,
+  "query": "3708 S Las Vegas Blvd, Las Vegas, NV"
  }
 }

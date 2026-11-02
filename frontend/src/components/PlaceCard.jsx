@@ -54,6 +54,7 @@ export default function PlaceCard({ place, visit, onToggle, onChangeVisit, onClo
 
       <div className="space-y-1 text-sm">
         <p className="text-stone-700">{place.address}</p>
+        {place.approx && <p className="text-xs text-amber-700">Map pin is approximate: right street, maybe not the exact door.</p>}
         <div className="flex flex-wrap gap-x-4 gap-y-1">
           <a className="font-medium text-ink underline underline-offset-2" href={mapsUrl(place)} target="_blank" rel="noreferrer">
             Directions ↗

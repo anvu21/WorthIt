@@ -117,7 +117,8 @@ WorthItFood/
 - Cache key = normalized address. Entries are `{lat, lng, city, country, query}` or `{"failed": true}`. Failures are cached too, so they're not re-queried; use `--retry-failed` to try them again.
 - Query order: full address → address without unit/suite → address without postcode → name-based queries (`name, <last 2 address parts>` and `name, city, country`).
 - **Name-based hits are accepted only if the hit's postcode area (first 3 chars) matches the sheet address's postcode.** Without this rule they matched namesakes: The Belvedere → a park in East LA, Decoy → upstate NY, Pablo Coffee (Osaka) → Miyagi, Coffee Elementary School → an actual school. Any hit in a different country than the sheet says is rejected.
-- Result as of 2026-10-30: **207 / 242 have pins.** The 35 misses are mostly Taiwan and Japan addresses (OSM coverage is weak there), plus a few hotels and food halls. Fix them with `Lat`/`Lng` columns on the Map sheet, not by loosening the name-match rule.
+- **Taiwan has its own path** (`_lookup_taiwan`): OSM writes streets as `Xinyi Road Section 2, Taipei, Taiwan`, unlike the sheet's `Section 2, Xinyi Road, Da'an District, Taipei City`. Order: house number on the street → name, only if the hit is on the sheet's street (chains: "Din Tai Fung, Taipei" returns another branch) → the street → the township. The last two, and a number query that only reaches the road, set `approx: true`, which the place card shows as a note.
+- Result as of 2026-11-02: **227 / 242 have pins, 5 of them approximate.** The 15 misses: 11 Japan, Yan Xiang Lou (Taiwan), Walkerhill (Korea), Doyle's (Australia), Bolton's (US). Fix them with `Lat`/`Lng` columns on the Map sheet, not by loosening the name-match rule.
 
 ### Stable IDs (critical — visitors' checklists reference them)
 
@@ -176,7 +177,7 @@ GitHub repo **variables**: `SITE_BUCKET`, `CLOUDFRONT_DISTRIBUTION_ID` (oil's). 
 5. Run **Deploy site**. Verify `https://d29v5i05cdp0sg.cloudfront.net/worthit/` loads, a place card opens, and a deep link `#p=<id>` works.
 
 **Later / ideas**
-- Fill `Lat`/`Lng` for the 35 unpinned places (list them with `python -m worthit_import --check`).
+- Fill `Lat`/`Lng` for the 15 unpinned places (list them with `python -m worthit_import --check`).
 - Make the site installable (manifest + icons) so iOS Safari doesn't evict the checklist after 7 days.
 - Optional: custom domain (~$12/yr + Route 53 $0.50/mo), replace IAM access keys with GitHub OIDC.
 

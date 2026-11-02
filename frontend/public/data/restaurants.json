@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T04:21:01Z",
+ "generated_at": "2026-11-02T06:33:33Z",
  "restaurants": [
   {
    "address": "4 Chome-10-10 Tsukiji, Chuo City, Tokyo 104-0045, Japan",
@@ -13,6 +13,7 @@
      "video": "http://www.youtube.com/watch?v=9yh6-d_u-hA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -47,6 +48,7 @@
      "video": "http://www.youtube.com/watch?v=n4bucphC9r4"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -81,6 +83,7 @@
      "video": "https://youtu.be/Bhos_P4a-JQ?t=346"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -141,6 +144,7 @@
      "video": "http://www.youtube.com/watch?v=PbQyevYlLAY"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Philadelphia",
    "closed": true,
@@ -175,6 +179,7 @@
      "video": "http://www.youtube.com/watch?v=rdeQT7KkqM8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": true,
@@ -209,6 +214,7 @@
      "video": "http://www.youtube.com/watch?v=yyv2gOHMGEc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -222,8 +228,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 34.067935,
+   "lng": -118.408252,
    "name": "The Belvedere",
    "notes": null,
    "tiers": [
@@ -243,6 +249,7 @@
      "video": "http://www.youtube.com/watch?v=GTXP2FzQS94"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -277,6 +284,7 @@
      "video": "http://www.youtube.com/watch?v=AAeRZX6ann8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Culver City",
    "closed": false,
@@ -311,6 +319,7 @@
      "video": "https://youtu.be/CmI2dXo14sY?t=687"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -347,6 +356,7 @@
      "video": "http://www.youtube.com/watch?v=6R8n6FbXVc8"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -387,6 +397,7 @@
      "video": "https://youtu.be/CmI2dXo14sY?t=309"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -427,6 +438,7 @@
      "video": "http://www.youtube.com/watch?v=FkIQMZaBTBo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -461,6 +473,7 @@
      "video": "http://www.youtube.com/watch?v=nXu2psXhZ_8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -501,6 +514,7 @@
      "video": "http://www.youtube.com/watch?v=VhI2EpAIcm4"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Philadelphia",
    "closed": true,
@@ -535,6 +549,7 @@
      "video": "http://www.youtube.com/watch?v=0n89GZvmeXI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -569,6 +584,7 @@
      "video": "http://www.youtube.com/watch?v=IxD2NbXzgpQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -603,6 +619,7 @@
      "video": "http://www.youtube.com/watch?v=tqPub3p3k5E"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Houston",
    "closed": true,
@@ -637,6 +654,7 @@
      "video": "http://www.youtube.com/watch?v=w3XS900kg1U"
     }
    ],
+   "approx": true,
    "chain": false,
    "city": "Taipei City",
    "closed": false,
@@ -650,8 +668,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.058396,
+   "lng": 121.557487,
    "name": "Sunny Hills",
    "notes": null,
    "tiers": [
@@ -671,6 +689,7 @@
      "video": "http://www.youtube.com/watch?v=CgjOzZ0EE9Y"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -723,6 +742,7 @@
      "video": "https://www.youtube.com/watch?v=f8BLlSvqrVc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Detroit",
    "closed": false,
@@ -759,6 +779,7 @@
      "video": "http://www.youtube.com/watch?v=w3XS900kg1U"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Taipei City",
    "closed": false,
@@ -778,8 +799,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.034125,
+   "lng": 121.528592,
    "name": "Din Tai Fung",
    "notes": null,
    "tiers": [
@@ -799,6 +820,7 @@
      "video": "http://www.youtube.com/watch?v=vzSfnduxNDg"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -839,6 +861,7 @@
      "video": "http://www.youtube.com/watch?v=JCHttVEG_Lk"
     }
    ],
+   "approx": true,
    "chain": false,
    "city": "Taipei City",
    "closed": false,
@@ -870,8 +893,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.045189,
+   "lng": 121.557819,
    "name": "deepfry2018",
    "notes": null,
    "tiers": [
@@ -891,6 +914,7 @@
      "video": "http://www.youtube.com/watch?v=NLVQ2qTFFxA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -925,6 +949,7 @@
      "video": "http://www.youtube.com/watch?v=FkIQMZaBTBo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -965,6 +990,7 @@
      "video": "http://www.youtube.com/watch?v=DWq_sSSWWSI"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -999,6 +1025,7 @@
      "video": "http://www.youtube.com/watch?v=qUm8TSGtenI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -1033,6 +1060,7 @@
      "video": "http://www.youtube.com/watch?v=uFmQmqNAmfo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1067,6 +1095,7 @@
      "video": "http://www.youtube.com/watch?v=wduZHtRbSkY"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Las Vegas",
    "closed": false,
@@ -1101,6 +1130,7 @@
      "video": "http://www.youtube.com/watch?v=qUm8TSGtenI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -1135,6 +1165,7 @@
      "video": "http://www.youtube.com/watch?v=2GZrPR5Ajrs"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -1187,6 +1218,7 @@
      "video": "http://www.youtube.com/watch?v=qIbbJV-grHg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -1221,6 +1253,7 @@
      "video": "http://www.youtube.com/watch?v=nXu2psXhZ_8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -1255,6 +1288,7 @@
      "video": "http://www.youtube.com/watch?v=_GGsPCZUXrw"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Nikko",
    "closed": false,
@@ -1289,6 +1323,7 @@
      "video": "http://www.youtube.com/watch?v=tqPub3p3k5E"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Pasadena",
    "closed": false,
@@ -1323,6 +1358,7 @@
      "video": "http://www.youtube.com/watch?v=JCHttVEG_Lk"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tainan City",
    "closed": false,
@@ -1336,8 +1372,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 22.995566,
+   "lng": 120.226487,
    "name": "Walking Su",
    "notes": null,
    "tiers": [
@@ -1357,6 +1393,7 @@
      "video": "http://www.youtube.com/watch?v=6naWCw5LSPc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Seoul",
    "closed": false,
@@ -1391,6 +1428,7 @@
      "video": "https://youtu.be/Bhos_P4a-JQ?t=40"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1439,6 +1477,7 @@
      "video": "http://www.youtube.com/watch?v=0n89GZvmeXI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1473,6 +1512,7 @@
      "video": "http://www.youtube.com/watch?v=FkIQMZaBTBo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1507,6 +1547,7 @@
      "video": "http://www.youtube.com/watch?v=bcdJgjNDsto"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "New York City",
    "closed": false,
@@ -1541,6 +1582,7 @@
      "video": "https://www.youtube.com/watch?v=r3Ti02CIFas"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1577,6 +1619,7 @@
      "video": "http://www.youtube.com/watch?v=Yql-9LHorTo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1614,6 +1657,7 @@
      "video": "https://www.youtube.com/watch?v=YuCqyvBlcK8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1648,6 +1692,7 @@
      "video": "http://www.youtube.com/watch?v=oipLbJoV9pM"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Honolulu",
    "closed": false,
@@ -1688,6 +1733,7 @@
      "video": "http://www.youtube.com/watch?v=oipLbJoV9pM"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Honolulu",
    "closed": false,
@@ -1736,6 +1782,7 @@
      "video": "http://www.youtube.com/watch?v=CgjOzZ0EE9Y"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1782,6 +1829,7 @@
      "video": "https://www.youtube.com/watch?v=iRyXDCckvuc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1818,6 +1866,7 @@
      "video": "https://www.youtube.com/watch?v=YuCqyvBlcK8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1852,6 +1901,7 @@
      "video": "http://www.youtube.com/watch?v=xscOXwsaGLQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Chiayi City",
    "closed": false,
@@ -1865,8 +1915,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 23.478809,
+   "lng": 120.450026,
    "name": "Smart Fish",
    "notes": "fish beer, turkey rice and fish head soup",
    "tiers": [
@@ -1886,6 +1936,7 @@
      "video": "http://www.youtube.com/watch?v=NLVQ2qTFFxA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -1920,6 +1971,7 @@
      "video": "http://www.youtube.com/watch?v=fjSKDTLPmE8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -1954,6 +2006,7 @@
      "video": "https://www.youtube.com/watch?v=Qlswv7eLykc&t=16s"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2004,6 +2057,7 @@
      "video": "http://www.youtube.com/watch?v=dJJFkOVHEng"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -2038,6 +2092,7 @@
      "video": "http://www.youtube.com/watch?v=6naWCw5LSPc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Seoul",
    "closed": false,
@@ -2072,6 +2127,7 @@
      "video": "http://www.youtube.com/watch?v=iN8zmmCRqUA"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Montreal",
    "closed": false,
@@ -2106,6 +2162,7 @@
      "video": "http://www.youtube.com/watch?v=oipLbJoV9pM"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Honolulu",
    "closed": false,
@@ -2140,6 +2197,7 @@
      "video": "http://www.youtube.com/watch?v=QpyHrQYeoIE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Houston",
    "closed": false,
@@ -2174,6 +2232,7 @@
      "video": "http://www.youtube.com/watch?v=IxD2NbXzgpQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -2208,6 +2267,7 @@
      "video": "https://www.youtube.com/watch?v=r3Ti02CIFas"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2263,6 +2323,7 @@
      "video": "http://www.youtube.com/watch?v=QtVL76gh09U"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -2297,6 +2358,7 @@
      "video": "https://www.youtube.com/watch?v=fYVouIyOXC0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2337,6 +2399,7 @@
      "video": "https://youtu.be/Bhos_P4a-JQ?t=644"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2371,6 +2434,7 @@
      "video": "http://www.youtube.com/watch?v=Yql-9LHorTo"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -2408,6 +2472,7 @@
      "video": "http://www.youtube.com/watch?v=qIbbJV-grHg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Osaka",
    "closed": false,
@@ -2442,6 +2507,7 @@
      "video": "http://www.youtube.com/watch?v=bcdJgjNDsto"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "New York City",
    "closed": false,
@@ -2482,6 +2548,7 @@
      "video": "http://www.youtube.com/watch?v=uDzl5PG51uI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Osaka",
    "closed": true,
@@ -2516,6 +2583,7 @@
      "video": "http://www.youtube.com/watch?v=xj-6hC5GFfI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2550,6 +2618,7 @@
      "video": "https://www.youtube.com/watch?v=f8BLlSvqrVc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Detroit",
    "closed": false,
@@ -2587,6 +2656,7 @@
      "video": "http://www.youtube.com/watch?v=xscOXwsaGLQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Taichung City",
    "closed": false,
@@ -2600,8 +2670,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 24.141703,
+   "lng": 120.658444,
    "name": "gubami",
    "notes": "tofu skin cooked in beef stock, radish with lemon and olive oil, zuchini confit in goose fat, green bean and beef mushroom deliciousness",
    "tiers": [
@@ -2621,6 +2691,7 @@
      "video": "http://www.youtube.com/watch?v=uDzl5PG51uI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -2655,6 +2726,7 @@
      "video": "http://www.youtube.com/watch?v=NHiqsrYkcuk"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -2701,6 +2773,7 @@
      "video": "http://www.youtube.com/watch?v=YqFen-4pUvw"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2735,6 +2808,7 @@
      "video": "http://www.youtube.com/watch?v=JCHttVEG_Lk"
     }
    ],
+   "approx": true,
    "chain": false,
    "city": "Yilan County",
    "closed": false,
@@ -2748,8 +2822,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 24.665963,
+   "lng": 121.653229,
    "name": "Yilan Scallion Field",
    "notes": "side quest, pick your own green onions and cook them",
    "tiers": [
@@ -2769,6 +2843,7 @@
      "video": "http://www.youtube.com/watch?v=3nPEkZv0-OU"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "San Francisco",
    "closed": false,
@@ -2809,6 +2884,7 @@
      "video": "http://www.youtube.com/watch?v=5IQoYz9futg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2843,6 +2919,7 @@
      "video": "http://www.youtube.com/watch?v=x3zQELlrY6A"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -2883,6 +2960,7 @@
      "video": "http://www.youtube.com/watch?v=FGAfZ-PTaNU"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -2917,6 +2995,7 @@
      "video": "https://www.youtube.com/watch?v=r3Ti02CIFas"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -2963,6 +3042,7 @@
      "video": "http://www.youtube.com/watch?v=AAeRZX6ann8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Long Beach",
    "closed": true,
@@ -2997,6 +3077,7 @@
      "video": "http://www.youtube.com/watch?v=x3zQELlrY6A"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "San Francisco",
    "closed": false,
@@ -3031,6 +3112,7 @@
      "video": "http://www.youtube.com/watch?v=-JmA5_gHrrM"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -3079,6 +3161,7 @@
      "video": "https://www.youtube.com/watch?v=h_4vMTkfGAw&t=15s"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3119,6 +3202,7 @@
      "video": "http://www.youtube.com/watch?v=n4bucphC9r4"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -3153,6 +3237,7 @@
      "video": "http://www.youtube.com/watch?v=dT5ALH3ICTc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Palm Springs",
    "closed": false,
@@ -3187,6 +3272,7 @@
      "video": "http://www.youtube.com/watch?v=bcdJgjNDsto"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -3221,6 +3307,7 @@
      "video": "http://www.youtube.com/watch?v=FLqvTE1Eqfg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -3255,6 +3342,7 @@
      "video": "http://www.youtube.com/watch?v=CgjOzZ0EE9Y"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": true,
@@ -3295,6 +3383,7 @@
      "video": "http://www.youtube.com/watch?v=AAeRZX6ann8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Studio City",
    "closed": true,
@@ -3329,6 +3418,7 @@
      "video": "http://www.youtube.com/watch?v=IxD2NbXzgpQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3363,6 +3453,7 @@
      "video": "https://youtu.be/rRSOt9SpBMI?t=320"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3399,6 +3490,7 @@
      "video": "http://www.youtube.com/watch?v=Yql-9LHorTo"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -3435,6 +3527,7 @@
      "video": "http://www.youtube.com/watch?v=JCHttVEG_Lk"
     }
    ],
+   "approx": true,
    "chain": false,
    "city": "Taipei City",
    "closed": false,
@@ -3448,8 +3541,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.061519,
+   "lng": 121.522785,
    "name": "Regent Taipei",
    "notes": "croissant might be limited time thing",
    "tiers": [
@@ -3469,6 +3562,7 @@
      "video": "https://www.youtube.com/watch?v=ACKYhlBi98Q"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Houston",
    "closed": false,
@@ -3515,6 +3609,7 @@
      "video": "http://www.youtube.com/watch?v=iXexmZm3_j8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Sydney",
    "closed": false,
@@ -3549,6 +3644,7 @@
      "video": "http://www.youtube.com/watch?v=JCHttVEG_Lk"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Taichung City",
    "closed": false,
@@ -3583,6 +3679,7 @@
      "video": "http://www.youtube.com/watch?v=cV7sxafvBgo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3617,6 +3714,7 @@
      "video": "http://www.youtube.com/watch?v=w3XS900kg1U"
     }
    ],
+   "approx": true,
    "chain": false,
    "city": "Taipei City",
    "closed": false,
@@ -3630,8 +3728,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.020973,
+   "lng": 121.525468,
    "name": "Liu Jia Pan-Fried Bun",
    "notes": "Get the Soy Milk",
    "tiers": [
@@ -3651,6 +3749,7 @@
      "video": "http://www.youtube.com/watch?v=6naWCw5LSPc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Seoul",
    "closed": false,
@@ -3685,6 +3784,7 @@
      "video": "https://youtu.be/VS0oPwb3sag?si=3fLqAVn6rKOTeBIg&t=360"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New Orleans",
    "closed": false,
@@ -3719,6 +3819,7 @@
      "video": "http://www.youtube.com/watch?v=-JmA5_gHrrM"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -3753,6 +3854,7 @@
      "video": "http://www.youtube.com/watch?v=_yHnu58tIUg"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "New York City",
    "closed": false,
@@ -3787,6 +3889,7 @@
      "video": "http://www.youtube.com/watch?v=hz-RVFwgY1k"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -3821,6 +3924,7 @@
      "video": "http://www.youtube.com/watch?v=JM1Qgsh2rn0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3834,8 +3938,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 34.061409,
+   "lng": -118.239245,
    "name": "Lao Tao",
    "notes": "1 egg",
    "tiers": [
@@ -3855,6 +3959,7 @@
      "video": "http://www.youtube.com/watch?v=x3zQELlrY6A"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3889,6 +3994,7 @@
      "video": "http://www.youtube.com/watch?v=Z5FoX3ju2J0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3923,6 +4029,7 @@
      "video": "https://youtu.be/VS0oPwb3sag?si=_WfWIPvEbdNutCWX&t=758"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New Orleans",
    "closed": false,
@@ -3957,6 +4064,7 @@
      "video": "http://www.youtube.com/watch?v=Z5FoX3ju2J0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -3991,6 +4099,7 @@
      "video": "https://www.youtube.com/watch?v=Qlswv7eLykc&t=16s"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4027,6 +4136,7 @@
      "video": "http://www.youtube.com/watch?v=qIbbJV-grHg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -4061,6 +4171,7 @@
      "video": "https://youtu.be/VS0oPwb3sag?si=B7BiU4UJC_HecIUa&t=1200"
     }
    ],
+   "approx": false,
    "chain": null,
    "city": "Covington",
    "closed": false,
@@ -4095,6 +4206,7 @@
      "video": "http://www.youtube.com/watch?v=w3XS900kg1U"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Taipei City",
    "closed": false,
@@ -4108,8 +4220,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.03293,
+   "lng": 121.550527,
    "name": "Showa Ice",
    "notes": null,
    "tiers": [
@@ -4129,6 +4241,7 @@
      "video": "http://www.youtube.com/watch?v=bc5BnTYRgx8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -4163,6 +4276,7 @@
      "video": "https://youtu.be/CmI2dXo14sY?t=79"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4218,6 +4332,7 @@
      "video": "http://www.youtube.com/watch?v=xj-6hC5GFfI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4252,6 +4367,7 @@
      "video": "http://www.youtube.com/watch?v=B2COl0ui4Sc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4286,6 +4402,7 @@
      "video": "http://www.youtube.com/watch?v=VhI2EpAIcm4"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Philadelphia",
    "closed": false,
@@ -4320,6 +4437,7 @@
      "video": "https://www.youtube.com/watch?v=kfe9hmwjOVQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York",
    "closed": false,
@@ -4352,6 +4470,7 @@
      "video": "http://www.youtube.com/watch?v=dT5ALH3ICTc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4386,6 +4505,7 @@
      "video": "http://www.youtube.com/watch?v=GTXP2FzQS94"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4420,6 +4540,7 @@
      "video": "http://www.youtube.com/watch?v=LBJVq56fptQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -4462,6 +4583,7 @@
      "video": "https://www.youtube.com/watch?v=iRyXDCckvuc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4498,6 +4620,7 @@
      "video": "https://www.youtube.com/watch?v=qvLVtsC-HTE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4534,6 +4657,7 @@
      "video": "http://www.youtube.com/watch?v=3nPEkZv0-OU"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4568,6 +4692,7 @@
      "video": "http://www.youtube.com/watch?v=yyv2gOHMGEc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4602,6 +4727,7 @@
      "video": "http://www.youtube.com/watch?v=QpyHrQYeoIE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Honolulu",
    "closed": false,
@@ -4648,6 +4774,7 @@
      "video": "http://www.youtube.com/watch?v=_yHnu58tIUg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -4682,6 +4809,7 @@
      "video": "http://www.youtube.com/watch?v=YqFen-4pUvw"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -4716,6 +4844,7 @@
      "video": "http://www.youtube.com/watch?v=dJJFkOVHEng"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -4750,6 +4879,7 @@
      "video": "http://www.youtube.com/watch?v=SzOhHutFVKs"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -4784,6 +4914,7 @@
      "video": "https://youtu.be/VS0oPwb3sag?si=QMvL-mqZ-Hs78zQS&t=830"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New Orleans",
    "closed": false,
@@ -4818,6 +4949,7 @@
      "video": "http://www.youtube.com/watch?v=xscOXwsaGLQ"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Taichung City",
    "closed": false,
@@ -4831,8 +4963,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 24.164303,
+   "lng": 120.637767,
    "name": "Cha for Tea",
    "notes": "Steven say's \"let's go to Ren Ten\", but the footage is shot at this Cha for Tea (both are chains)",
    "tiers": [
@@ -4852,6 +4984,7 @@
      "video": "http://www.youtube.com/watch?v=5IQoYz9futg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Fresno",
    "closed": false,
@@ -4886,6 +5019,7 @@
      "video": "http://www.youtube.com/watch?v=qUm8TSGtenI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -4920,6 +5054,7 @@
      "video": "http://www.youtube.com/watch?v=FLqvTE1Eqfg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Nashville",
    "closed": false,
@@ -4954,6 +5089,7 @@
      "video": "http://www.youtube.com/watch?v=iXexmZm3_j8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Melbourne",
    "closed": false,
@@ -4988,6 +5124,7 @@
      "video": "http://www.youtube.com/watch?v=U61yzVVlUoE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Las Vegas",
    "closed": false,
@@ -5001,8 +5138,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 36.110157,
+   "lng": -115.174092,
    "name": "Wicked Spoon, The Cosmopolitan",
    "notes": null,
    "tiers": [
@@ -5022,6 +5159,7 @@
      "video": "http://www.youtube.com/watch?v=QtVL76gh09U"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": true,
@@ -5056,6 +5194,7 @@
      "video": "https://youtu.be/rRSOt9SpBMI?t=55"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5104,6 +5243,7 @@
      "video": "http://www.youtube.com/watch?v=rdeQT7KkqM8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -5138,6 +5278,7 @@
      "video": "http://www.youtube.com/watch?v=dJJFkOVHEng"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "New York City",
    "closed": false,
@@ -5172,6 +5313,7 @@
      "video": "http://www.youtube.com/watch?v=ZsJSW21oXE0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Wahgunyah",
    "closed": false,
@@ -5206,6 +5348,7 @@
      "video": "https://youtu.be/VS0oPwb3sag?si=YpXWDO6OLGcGStzs&t=36"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New Orleans",
    "closed": false,
@@ -5240,6 +5383,7 @@
      "video": "http://www.youtube.com/watch?v=M6XiFKB7j0w"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "New York City",
    "closed": false,
@@ -5274,6 +5418,7 @@
      "video": "https://youtu.be/rRSOt9SpBMI?t=786"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5328,6 +5473,7 @@
      "video": "http://www.youtube.com/watch?v=se9E-qvPJSg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Minneapolis",
    "closed": false,
@@ -5362,6 +5508,7 @@
      "video": "http://www.youtube.com/watch?v=53ivEr2Sd44"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Sydney",
    "closed": false,
@@ -5396,6 +5543,7 @@
      "video": "http://www.youtube.com/watch?v=3nPEkZv0-OU"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5430,6 +5578,7 @@
      "video": "http://www.youtube.com/watch?v=rNuIOpfA2HA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5464,6 +5613,7 @@
      "video": "http://www.youtube.com/watch?v=9yh6-d_u-hA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Kyoto",
    "closed": false,
@@ -5498,6 +5648,7 @@
      "video": "http://www.youtube.com/watch?v=oCxJhNLCdAU"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -5532,6 +5683,7 @@
      "video": "http://www.youtube.com/watch?v=vzSfnduxNDg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5566,6 +5718,7 @@
      "video": "http://www.youtube.com/watch?v=rNuIOpfA2HA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -5600,6 +5753,7 @@
      "video": "http://www.youtube.com/watch?v=LBJVq56fptQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5649,6 +5803,7 @@
      "video": "http://www.youtube.com/watch?v=ZsJSW21oXE0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Nagambie",
    "closed": false,
@@ -5683,6 +5838,7 @@
      "video": "http://www.youtube.com/watch?v=xscOXwsaGLQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tainan City",
    "closed": false,
@@ -5696,8 +5852,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 22.937692,
+   "lng": 120.247765,
    "name": "A Yu Beef Shabu Shabu",
    "notes": "Cold brewed oolong",
    "tiers": [
@@ -5717,6 +5873,7 @@
      "video": "http://www.youtube.com/watch?v=xj-6hC5GFfI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5751,6 +5908,7 @@
      "video": "http://www.youtube.com/watch?v=VhI2EpAIcm4"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Philadelphia",
    "closed": false,
@@ -5785,6 +5943,7 @@
      "video": "http://www.youtube.com/watch?v=QpyHrQYeoIE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Las Vegas",
    "closed": false,
@@ -5819,6 +5978,7 @@
      "video": "http://www.youtube.com/watch?v=cV7sxafvBgo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -5853,6 +6013,7 @@
      "video": "http://www.youtube.com/watch?v=tqPub3p3k5E"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Houston",
    "closed": false,
@@ -5887,6 +6048,7 @@
      "video": "http://www.youtube.com/watch?v=iN8zmmCRqUA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Montreal",
    "closed": false,
@@ -5921,6 +6083,7 @@
      "video": "https://www.youtube.com/watch?v=f8BLlSvqrVc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Detroit",
    "closed": false,
@@ -5955,6 +6118,7 @@
      "video": "http://www.youtube.com/watch?v=M6XiFKB7j0w"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -5989,6 +6153,7 @@
      "video": "http://www.youtube.com/watch?v=DWq_sSSWWSI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Las Vegas",
    "closed": false,
@@ -6002,8 +6167,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 36.110157,
+   "lng": -115.174092,
    "name": "Rose. Rabbit. Lie",
    "notes": null,
    "tiers": [
@@ -6023,6 +6188,7 @@
      "video": "http://www.youtube.com/watch?v=cV7sxafvBgo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6057,6 +6223,7 @@
      "video": "http://www.youtube.com/watch?v=se9E-qvPJSg"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Minneapolis",
    "closed": false,
@@ -6091,6 +6258,7 @@
      "video": "http://www.youtube.com/watch?v=dT5ALH3ICTc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -6125,6 +6293,7 @@
      "video": "http://www.youtube.com/watch?v=se9E-qvPJSg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "St Paul",
    "closed": false,
@@ -6159,6 +6328,7 @@
      "video": "http://www.youtube.com/watch?v=6R8n6FbXVc8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Seattle",
    "closed": false,
@@ -6193,6 +6363,7 @@
      "video": "http://www.youtube.com/watch?v=53ivEr2Sd44"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Sydney",
    "closed": false,
@@ -6233,6 +6404,7 @@
      "video": "http://www.youtube.com/watch?v=NLVQ2qTFFxA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -6246,8 +6418,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 40.723474,
+   "lng": -74.008003,
    "name": "Decoy",
    "notes": "12 pancakes, 3 sauces",
    "tiers": [
@@ -6267,6 +6439,7 @@
      "video": "http://www.youtube.com/watch?v=JM1Qgsh2rn0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6301,6 +6474,7 @@
      "video": "http://www.youtube.com/watch?v=NLVQ2qTFFxA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -6335,6 +6509,7 @@
      "video": "http://www.youtube.com/watch?v=PbQyevYlLAY"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6377,6 +6552,7 @@
      "video": "http://www.youtube.com/watch?v=SzOhHutFVKs"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6421,6 +6597,7 @@
      "video": "http://www.youtube.com/watch?v=GTXP2FzQS94"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6455,6 +6632,7 @@
      "video": "http://www.youtube.com/watch?v=QtVL76gh09U"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -6489,6 +6667,7 @@
      "video": "http://www.youtube.com/watch?v=n4bucphC9r4"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6531,6 +6710,7 @@
      "video": "http://www.youtube.com/watch?v=JCHttVEG_Lk"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tainan City",
    "closed": false,
@@ -6550,8 +6730,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 23.010394,
+   "lng": 120.199572,
    "name": "Garden Night Market",
    "notes": null,
    "tiers": [
@@ -6571,6 +6751,7 @@
      "video": "http://www.youtube.com/watch?v=w3XS900kg1U"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Taipei City",
    "closed": false,
@@ -6584,8 +6765,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.050679,
+   "lng": 121.575977,
    "name": "Raohe Night Market",
    "notes": null,
    "tiers": [
@@ -6605,6 +6786,7 @@
      "video": "http://www.youtube.com/watch?v=5IQoYz9futg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6657,6 +6839,7 @@
      "video": "http://www.youtube.com/watch?v=53ivEr2Sd44"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Melbourne",
    "closed": false,
@@ -6691,6 +6874,7 @@
      "video": "http://www.youtube.com/watch?v=uFmQmqNAmfo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6725,6 +6909,7 @@
      "video": "http://www.youtube.com/watch?v=2GZrPR5Ajrs"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6759,6 +6944,7 @@
      "video": "http://www.youtube.com/watch?v=NHiqsrYkcuk"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6793,6 +6979,7 @@
      "video": "http://www.youtube.com/watch?v=rNuIOpfA2HA"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -6827,6 +7014,7 @@
      "video": "http://www.youtube.com/watch?v=oCxJhNLCdAU"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -6861,6 +7049,7 @@
      "video": "http://www.youtube.com/watch?v=NHiqsrYkcuk"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6901,6 +7090,7 @@
      "video": "http://www.youtube.com/watch?v=0n89GZvmeXI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -6935,6 +7125,7 @@
      "video": "http://www.youtube.com/watch?v=2GZrPR5Ajrs"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -6969,6 +7160,7 @@
      "video": "http://www.youtube.com/watch?v=V9eeg8d9XEg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Seattle",
    "closed": false,
@@ -7003,6 +7195,7 @@
      "video": "https://www.youtube.com/watch?v=fYVouIyOXC0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": true,
@@ -7049,6 +7242,7 @@
      "video": "https://www.youtube.com/watch?v=f8BLlSvqrVc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Detroit",
    "closed": false,
@@ -7083,6 +7277,7 @@
      "video": "http://www.youtube.com/watch?v=B2COl0ui4Sc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7117,6 +7312,7 @@
      "video": "http://www.youtube.com/watch?v=6R8n6FbXVc8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Seattle",
    "closed": false,
@@ -7151,6 +7347,7 @@
      "video": "http://www.youtube.com/watch?v=bc5BnTYRgx8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -7185,6 +7382,7 @@
      "video": "https://www.youtube.com/watch?v=kfe9hmwjOVQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Houston",
    "closed": false,
@@ -7217,6 +7415,7 @@
      "video": "http://www.youtube.com/watch?v=M6XiFKB7j0w"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -7251,6 +7450,7 @@
      "video": "http://www.youtube.com/watch?v=6R8n6FbXVc8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Seattle",
    "closed": true,
@@ -7293,6 +7493,7 @@
      "video": "https://youtu.be/Bhos_P4a-JQ?t=854"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7371,6 +7572,7 @@
      "video": "https://www.youtube.com/watch?v=ACKYhlBi98Q"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Houston",
    "closed": false,
@@ -7409,6 +7611,7 @@
      "video": "http://www.youtube.com/watch?v=5IQoYz9futg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7443,6 +7646,7 @@
      "video": "http://www.youtube.com/watch?v=UZF5m70Pgyc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Nagoya",
    "closed": false,
@@ -7477,6 +7681,7 @@
      "video": "http://www.youtube.com/watch?v=YqFen-4pUvw"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7513,6 +7718,7 @@
      "video": "http://www.youtube.com/watch?v=5IQoYz9futg"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Fresno",
    "closed": false,
@@ -7547,6 +7753,7 @@
      "video": "http://www.youtube.com/watch?v=yyv2gOHMGEc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Culver City",
    "closed": true,
@@ -7581,6 +7788,7 @@
      "video": "http://www.youtube.com/watch?v=6R8n6FbXVc8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7621,6 +7829,7 @@
      "video": "http://www.youtube.com/watch?v=rdeQT7KkqM8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -7655,6 +7864,7 @@
      "video": "http://www.youtube.com/watch?v=xj-6hC5GFfI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7689,6 +7899,7 @@
      "video": "http://www.youtube.com/watch?v=ZsJSW21oXE0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Avenel",
    "closed": false,
@@ -7723,6 +7934,7 @@
      "video": "http://www.youtube.com/watch?v=B2COl0ui4Sc"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7757,6 +7969,7 @@
      "video": "http://www.youtube.com/watch?v=wduZHtRbSkY"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Las Vegas",
    "closed": false,
@@ -7791,6 +8004,7 @@
      "video": "https://www.youtube.com/watch?v=qvLVtsC-HTE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -7828,6 +8042,7 @@
      "video": "http://www.youtube.com/watch?v=w3XS900kg1U"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Taipei City",
    "closed": false,
@@ -7841,8 +8056,8 @@
      "voters": []
     }
    ],
-   "lat": null,
-   "lng": null,
+   "lat": 25.041725,
+   "lng": 121.547804,
    "name": "Zi Lin Steamed Dumplings",
    "notes": "get the thousand year egg and tofu",
    "tiers": [
@@ -7862,6 +8077,7 @@
      "video": "http://www.youtube.com/watch?v=PbQyevYlLAY"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -7896,6 +8112,7 @@
      "video": "http://www.youtube.com/watch?v=-JmA5_gHrrM"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "New York City",
    "closed": false,
@@ -7930,6 +8147,7 @@
      "video": "http://www.youtube.com/watch?v=oCxJhNLCdAU"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "New York City",
    "closed": false,
@@ -7964,6 +8182,7 @@
      "video": "http://www.youtube.com/watch?v=9yh6-d_u-hA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Chichibu",
    "closed": false,
@@ -7998,6 +8217,7 @@
      "video": "https://youtu.be/CmI2dXo14sY?t=577"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -8032,6 +8252,7 @@
      "video": "https://www.youtube.com/watch?v=fYVouIyOXC0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8078,6 +8299,7 @@
      "video": "http://www.youtube.com/watch?v=Yql-9LHorTo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8112,6 +8334,7 @@
      "video": "http://www.youtube.com/watch?v=bc5BnTYRgx8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "New York City",
    "closed": false,
@@ -8146,6 +8369,7 @@
      "video": "http://www.youtube.com/watch?v=FkIQMZaBTBo"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8180,6 +8404,7 @@
      "video": "https://www.youtube.com/watch?v=iRyXDCckvuc"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -8216,6 +8441,7 @@
      "video": "http://www.youtube.com/watch?v=DWq_sSSWWSI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8250,6 +8476,7 @@
      "video": "http://www.youtube.com/watch?v=XmqLrbidKGU"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8302,6 +8529,7 @@
      "video": "http://www.youtube.com/watch?v=wduZHtRbSkY"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Las Vegas",
    "closed": false,
@@ -8336,6 +8564,7 @@
      "video": "http://www.youtube.com/watch?v=JM1Qgsh2rn0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8370,6 +8599,7 @@
      "video": "http://www.youtube.com/watch?v=iXexmZm3_j8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Sydney",
    "closed": false,
@@ -8404,6 +8634,7 @@
      "video": "https://www.youtube.com/watch?v=Qlswv7eLykc&t=16s"
     }
    ],
+   "approx": false,
    "chain": true,
    "city": "Los Angeles",
    "closed": false,
@@ -8438,6 +8669,7 @@
      "video": "http://www.youtube.com/watch?v=uDzl5PG51uI"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Tokyo",
    "closed": false,
@@ -8472,6 +8704,7 @@
      "video": "https://www.youtube.com/watch?v=ACKYhlBi98Q"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Houston",
    "closed": false,
@@ -8518,6 +8751,7 @@
      "video": "http://www.youtube.com/watch?v=9yh6-d_u-hA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Kyoto",
    "closed": false,
@@ -8558,6 +8792,7 @@
      "video": "http://www.youtube.com/watch?v=iN8zmmCRqUA"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8592,6 +8827,7 @@
      "video": "http://www.youtube.com/watch?v=FLqvTE1Eqfg"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8626,6 +8862,7 @@
      "video": "https://www.youtube.com/watch?v=qvLVtsC-HTE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8660,6 +8897,7 @@
      "video": "http://www.youtube.com/watch?v=LBJVq56fptQ"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8702,6 +8940,7 @@
      "video": "https://www.youtube.com/watch?v=YuCqyvBlcK8"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,
@@ -8736,6 +8975,7 @@
      "video": "http://www.youtube.com/watch?v=U61yzVVlUoE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Las Vegas",
    "closed": false,
@@ -8770,6 +9010,7 @@
      "video": "http://www.youtube.com/watch?v=U61yzVVlUoE"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Las Vegas",
    "closed": false,
@@ -8804,6 +9045,7 @@
      "video": "http://www.youtube.com/watch?v=Z5FoX3ju2J0"
     }
    ],
+   "approx": false,
    "chain": false,
    "city": "Los Angeles",
    "closed": false,

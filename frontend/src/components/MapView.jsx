@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import L from 'leaflet'
 import { MapContainer, Marker, TileLayer, Tooltip, useMap } from 'react-leaflet'
 import MarkerClusterGroup from 'react-leaflet-cluster'
@@ -38,23 +38,40 @@ function clusterIcon(cluster) {
   })
 }
 
-function FlyToSelected({ selected }) {
+// Moves the map to the results and the selected place. The map has zero size while its
+// panel is hidden (phone list view), where Leaflet's flyTo throws, so moves wait until
+// it is visible. Fit runs first so a selected place wins on load.
+function MapSync({ places, fitKey, selected }) {
   const map = useMap()
-  useEffect(() => {
-    if (selected?.lat != null) map.flyTo([selected.lat, selected.lng], Math.max(map.getZoom(), 15), { duration: 0.8 })
-  }, [selected, map])
-  return null
-}
+  const [visible, setVisible] = useState(false)
+  const fittedKey = useRef(null)
 
-function FitToResults({ places, fitKey }) {
-  const map = useMap()
   useEffect(() => {
-    if (!places.length) return
-    const bounds = L.latLngBounds(places.map((p) => [p.lat, p.lng]))
-    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 13 })
+    const container = map.getContainer()
+    const observer = new ResizeObserver(() => {
+      map.invalidateSize({ animate: false })
+      // The cluster layer only redraws on moveend, and un-hiding the map isn't a move.
+      map.fire('moveend')
+      setVisible(container.clientWidth > 0 && container.clientHeight > 0)
+    })
+    observer.observe(container)
+    return () => observer.disconnect()
+  }, [map])
+
+  useEffect(() => {
     // Only refit when the filter set changes, not when a pin is toggled visited.
+    if (!visible || !places.length || fittedKey.current === fitKey) return
+    fittedKey.current = fitKey
+    map.fitBounds(L.latLngBounds(places.map((p) => [p.lat, p.lng])), { padding: [40, 40], maxZoom: 13, animate: false })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [fitKey, map])
+  }, [fitKey, map, visible])
+
+  useEffect(() => {
+    if (visible && selected?.lat != null) {
+      map.flyTo([selected.lat, selected.lng], Math.max(map.getZoom(), 15), { duration: 0.8 })
+    }
+  }, [selected, map, visible])
+
   return null
 }
 
@@ -63,7 +80,7 @@ export default function MapView({ places, visits, selectedId, onSelect, fitKey }
   const selected = mapped.find((p) => p.id === selectedId)
 
   return (
-    <MapContainer center={[34.05, -118.25]} zoom={10} minZoom={2} worldCopyJump className="h-full w-full" zoomControl={false}>
+    <MapContainer center={[34.05, -118.25]} zoom={10} minZoom={1} worldCopyJump className="h-full w-full" zoomControl={false}>
       <TileLayer url={TILE_URL} attribution={ATTRIBUTION} maxZoom={19} />
       <MarkerClusterGroup chunkedLoading maxClusterRadius={45} iconCreateFunction={clusterIcon} showCoverageOnHover={false}>
         {mapped.map((p) => (
@@ -79,8 +96,7 @@ export default function MapView({ places, visits, selectedId, onSelect, fitKey }
           </Marker>
         ))}
       </MarkerClusterGroup>
-      <FlyToSelected selected={selected} />
-      <FitToResults places={mapped} fitKey={fitKey} />
+      <MapSync places={mapped} fitKey={fitKey} selected={selected} />
     </MapContainer>
   )
 }

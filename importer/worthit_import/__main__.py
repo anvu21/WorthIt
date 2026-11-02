@@ -37,6 +37,7 @@ def to_record(r: Restaurant, rid: str) -> dict:
         "country": r.country,
         "lat": r.lat,
         "lng": r.lng,
+        "approx": r.approx,
         "website": r.website,
         "tiers": r.tiers,
         "appearances": [a.to_json() for a in r.appearances],
@@ -80,6 +81,7 @@ def apply_coordinates(restaurants: list[Restaurant], cache: GeocodeCache, geocod
         entry = cache.get(r.address) or {}
         if not r.coords_from_sheet and not entry.get("failed") and "lat" in entry:
             r.lat, r.lng = entry["lat"], entry["lng"]
+            r.approx = bool(entry.get("approx"))
         r.city = r.city or entry.get("city")
         r.country = r.country or entry.get("country")
         if r.lat is None:

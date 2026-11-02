@@ -21,6 +21,8 @@ NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 DEFAULT_USER_AGENT = "WorthItFoodMap/1.0 (hobby project; static map of Worth It restaurants)"
 MIN_INTERVAL_S = 1.1
 POSTCODE_RE = re.compile(r"〒?\s*\b\d{3}-\d{4}\b|\b\d{5}(-\d{4})?\b(?=[^,]*$)")
+FLOOR_RE = re.compile(r"(,\s*|\s+)(ground|\d+(st|nd|rd|th))\s+floor\b", re.IGNORECASE)
+LEADING_BUILDING_RE = re.compile(r"^[^\d,][^,]*,\s*(?=\d)")
 UNIT_RE = re.compile(r"\s*(,\s*)?(unit|suite|ste\.?|#|fl\.?|floor|level)\s*[\w-]+", re.IGNORECASE)
 
 
@@ -70,9 +72,15 @@ class Nominatim:
         park, a café in another prefecture), so they are only accepted when the hit's
         postcode area matches the sheet's postcode. Hits in the wrong country are rejected.
         """
+        if "taiwan" in address.lower():
+            return self._lookup_taiwan(name, address)
+
         tail = ", ".join(address.split(",")[-2:]).strip()
-        no_postcode = POSTCODE_RE.sub("", UNIT_RE.sub("", address)).strip(" ,")
-        address_queries = [address, UNIT_RE.sub("", address), no_postcode]
+        no_unit = UNIT_RE.sub("", FLOOR_RE.sub("", address))
+        no_postcode = POSTCODE_RE.sub("", no_unit).strip(" ,")
+        # "The Chelsea Tower, 3708 S Las Vegas Blvd" → start at the street number.
+        no_building = LEADING_BUILDING_RE.sub("", no_postcode)
+        address_queries = [address, no_unit, no_postcode, no_building]
         name_queries = [f"{name}, {tail}"]
         if city:
             name_queries.append(", ".join(filter(None, [name, city, country])))
@@ -92,14 +100,91 @@ class Nominatim:
                 continue
             if query in name_queries and (not expected_area or postcode_area(details.get("postcode")) != expected_area):
                 continue
-            return {
-                "lat": round(float(hit["lat"]), 6),
-                "lng": round(float(hit["lon"]), 6),
-                "city": details.get("city") or details.get("town") or details.get("village") or details.get("suburb"),
-                "country": hit_country,
-                "query": query,
-            }
+            return make_entry(hit, query)
         return {"failed": True}
+
+    def _lookup_taiwan(self, name: str, address: str) -> dict:
+        """Taiwan needs OSM's street format, and its coverage has few house numbers.
+
+        Tried in order: house number on the street → the restaurant by name, only if the
+        hit is on the sheet's street (chains have many branches) → the street itself →
+        the township. The last two are flagged approx: right area, not the exact door.
+        """
+        parts = parse_taiwan_address(address)
+        city, road = parts["city"], parts["road"]
+        if not city:
+            return {"failed": True}
+
+        if road:
+            if parts["number"]:
+                query = f"{parts['number']} {road}, {city}, Taiwan"
+                hit = self._search(query)
+                if hit and on_street(hit, parts):
+                    return make_entry(hit, query, approx="house_number" not in hit.get("address", {}))
+            query = f"{name}, {city}, Taiwan"
+            hit = self._search(query)
+            if hit and on_street(hit, parts):
+                return make_entry(hit, query)
+            query = f"{road}, {city}, Taiwan"
+            hit = self._search(query)
+            if hit and on_street(hit, parts):
+                return make_entry(hit, query, approx=True)
+        elif parts["locality"]:
+            query = f"{parts['locality']}, {city}, Taiwan"
+            hit = self._search(query)
+            if hit and is_taiwan(hit):
+                return make_entry(hit, query, approx=True)
+        return {"failed": True}
+
+
+def make_entry(hit: dict, query: str, approx: bool = False) -> dict:
+    details = hit.get("address", {})
+    entry = {
+        "lat": round(float(hit["lat"]), 6),
+        "lng": round(float(hit["lon"]), 6),
+        "city": details.get("city") or details.get("town") or details.get("village") or details.get("suburb"),
+        "country": normalize_country(details.get("country")),
+        "query": query,
+    }
+    if approx:
+        entry["approx"] = True
+    return entry
+
+
+def parse_taiwan_address(address: str) -> dict:
+    """Pull the useful pieces from the sheet's mixed English/Chinese Taiwan addresses.
+
+    'No. 194號, Section 2, Xinyi Road, Da’an District, Taipei City, Taiwan 106' →
+    road 'Xinyi Road Section 2', number '194', city 'Taipei'. Houses on a lane or alley
+    get no number: it would be the lane's numbering, not the road's.
+    """
+    comma_parts = [p.strip() for p in address.replace("’", "'").split(",")]
+    city = next((m.group(1) for p in comma_parts if (m := re.fullmatch(r"(.+?) (?:City|County)", p))), None)
+    road = next((p for p in comma_parts if re.search(r"\b(Road|Street)$", p)), None)
+    section = next((m.group(1) for p in comma_parts if (m := re.fullmatch(r"Section (\d+)", p))), None)
+    on_lane = any(re.match(r"(Lane|Alley) ", p) for p in comma_parts)
+    number = None
+    if not on_lane:
+        number = next((m.group(1) for p in comma_parts if (m := re.match(r"(?:No\. )?(\d+)(?:號|$)", p)) and "號" in p or
+                       (m := re.fullmatch(r"No\. (\d+)", p))), None)
+    locality = next((re.sub(r" Township$", "", p) for p in comma_parts if p.endswith("Township")), None)
+    return {
+        "city": city,
+        "road": f"{road} Section {section}" if road and section else road,
+        "road_core": re.sub(r" (Road|Street)$", "", road) if road else None,
+        "number": number,
+        "locality": locality,
+    }
+
+
+def on_street(hit: dict, parts: dict) -> bool:
+    """Reject hits that aren't on the sheet's road in the sheet's city."""
+    shown = hit.get("display_name", "").replace("’", "'").lower()
+    return is_taiwan(hit) and parts["road_core"].lower() in shown and parts["city"].lower() in shown
+
+
+def is_taiwan(hit: dict) -> bool:
+    return normalize_country(hit.get("address", {}).get("country")) == "Taiwan"
 
 
 def postcode_area(text: str | None) -> str | None:
