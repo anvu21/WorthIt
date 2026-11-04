@@ -7,7 +7,7 @@ import PlaceList from './components/PlaceList'
 import { DEFAULT_FILTERS, applyFilters, filterOptions } from './lib/filters'
 import { needsBackup, useVisits } from './lib/visits'
 
-const FILTERS_KEY = 'worthit.filters.v1'
+const FILTERS_KEY = 'worthit.filters.v2' // v2: closed places shown by default
 
 function loadFilters() {
   try {
@@ -60,8 +60,6 @@ export default function App() {
   const options = useMemo(() => filterOptions(restaurants || [], filters.country), [restaurants, filters.country])
   const knownIds = useMemo(() => new Set((restaurants || []).map((r) => r.id)), [restaurants])
   const selected = restaurants?.find((r) => r.id === selectedId)
-  // Refit the map only when the filters change (not when visits change the result set).
-  const fitKey = useMemo(() => JSON.stringify({ ...filters, visited: filters.visited === 'all' ? 0 : filters.visited }), [filters])
 
   const total = restaurants?.filter((r) => !r.closed).length ?? 0
   const visitedCount = restaurants?.filter((r) => visits[r.id] && !r.closed).length ?? 0
@@ -134,7 +132,7 @@ export default function App() {
       </aside>
 
       <main className={`${mobileView === 'map' && !selected ? 'block' : 'hidden'} relative min-h-0 flex-1 md:block`}>
-        {restaurants && <MapView places={places} visits={visits} selectedId={selectedId} onSelect={select} fitKey={fitKey} />}
+        {restaurants && <MapView places={places} visits={visits} selectedId={selectedId} onSelect={select} />}
       </main>
 
       <nav className="flex border-t border-stone-200 bg-paper md:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>

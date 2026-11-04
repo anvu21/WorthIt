@@ -310,6 +310,7 @@ def parse_map_sheet(sheet: Sheet, warnings: list[str]) -> list[Restaurant]:
     c_video = sheet.col("video link")
     c_date = sheet.col("publish date")
     c_chain = sheet.col("chain")
+    c_closed = sheet.col("permanently closed", "closed")
     c_notes = sheet.col("notes")
     c_lat = sheet.col("lat", "latitude")
     c_lng = sheet.col("lng", "lon", "long", "longitude")
@@ -350,7 +351,8 @@ def parse_map_sheet(sheet: Sheet, warnings: list[str]) -> list[Restaurant]:
         restaurant = Restaurant(
             row=excel_row,
             name=name,
-            closed=closed,
+            # A "CLOSED" name marker or Permanently Closed = yes both count.
+            closed=closed or bool(parse_yes_no(get(row, c_closed))),
             chain=parse_yes_no(get(row, c_chain)),
             address=display_address(address),
             website=clean_url(get(row, c_link) or link_from_formula),

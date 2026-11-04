@@ -38,6 +38,13 @@ body {
 .pin > * {
   transform: rotate(45deg);
 }
+/* Permanently closed: grey with a dashed tier-coloured outline and an ✕. */
+.pin-closed {
+  background: #a8a29e;
+  border-style: dashed;
+  border-color: var(--pin);
+  opacity: 0.9;
+}
 .pin-selected {
   border-color: #1c1917;
   box-shadow: 0 0 0 4px rgb(28 25 23 / 0.2), 0 2px 8px rgb(0 0 0 / 0.4);

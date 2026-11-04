@@ -106,6 +106,7 @@ WorthItFood/
 
 - `Map` sheet = one row per restaurant (authoritative list). `Main` sheet = one row per item, joined to Map by normalized name (+ address when names collide, e.g. two Pasta Sisters).
 - Columns are found **by header name**, not position. Optional `Lat` / `Lng` columns on `Map` override geocoding.
+- **Closed places:** column `Permanently Closed` on Map (column Q) = `yes`, or a name marker. Both set `closed: true`; the row, its ID and its history are kept. The site shows closed places by default as grey dashed pins with an ✕ (filter key `worthit.filters.v2`; v1 had them hidden).
 - Names: strip `=HYPERLINK(url, "Name")`. Closed markers in any of these forms → `closed: true` and are removed from the name: `CLOSED Tokyo Dog`, `Closed: X`, `Bar Bolonat (CLOSED)`, `The Church Key [CLOSED]`.
 - Multi-episode cells are newline-separated; `-` lines are separators and dropped. A single value (e.g. one price) applies to every appearance.
 - Price Point: `$ / $$ / $$$` kept; `Side Trip` → `side`; `One Stop`, `Holiday Special` → `special`; `n/a`/blank → null.
@@ -175,6 +176,8 @@ GitHub repo **variables**: `SITE_BUCKET`, `CLOUDFRONT_DISTRIBUTION_ID` (oil's). 
 3. Set repo variables: WorthIt → `SITE_BUCKET`, `CLOUDFRONT_DISTRIBUTION_ID`; oil → `TF_WORTHIT_BUCKET_DOMAIN`.
 4. Open a PR for oil's `feat/worthit-route`. If the plan run is green (fix any `terraform fmt` complaints), merge it. Oil's `deploy-infra.yml` applies on `main`.
 5. Run **Deploy site**. Verify `https://d29v5i05cdp0sg.cloudfront.net/worthit/` loads, a place card opens, and a deep link `#p=<id>` works.
+
+**Closure check (2026-11-04):** 47 places marked closed from Google Maps (gubami + 46), 66 closed in total. Report and open questions: `Data/closure-check-2026-11-04.md`. The map no longer refits when filters change; it fits once on load, and a "Fit results" button refits on demand.
 
 **Later / ideas**
 - Fill `Lat`/`Lng` for the 15 unpinned places (list them with `python -m worthit_import --check`).

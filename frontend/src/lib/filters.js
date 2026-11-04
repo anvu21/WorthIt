@@ -17,7 +17,7 @@ export const DEFAULT_FILTERS = {
   country: '',
   city: '',
   season: '',
-  hideClosed: true,
+  hideClosed: false, // closed places stay visible (greyed) to keep the show's history
   hideChains: false,
 }
 
@@ -85,7 +85,7 @@ export function activeFilterCount(f) {
     (f.country ? 1 : 0) +
     (f.city ? 1 : 0) +
     (f.season ? 1 : 0) +
-    (f.hideClosed ? 0 : 1) +
+    (f.hideClosed ? 1 : 0) +
     (f.hideChains ? 1 : 0)
   )
 }

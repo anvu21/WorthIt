@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T07:37:19Z",
+ "generated_at": "2026-11-04T07:20:10Z",
  "restaurants": [
   {
    "address": "4 Chome-10-10 Tsukiji, Chuo City, Tokyo 104-0045, Japan",
@@ -543,7 +543,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "29hxf0",
    "items": [
@@ -997,7 +997,7 @@
    "approx": false,
    "chain": false,
    "city": "Detroit",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "35qpqk",
    "items": [
@@ -2084,7 +2084,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "5fpo5t",
    "items": [
@@ -2348,7 +2348,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "5wbe2e",
    "items": [
@@ -2592,7 +2592,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "6c78v9",
    "items": [
@@ -3096,7 +3096,7 @@
    "approx": false,
    "chain": false,
    "city": "Houston",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "7no3ae",
    "items": [
@@ -3131,7 +3131,7 @@
    "approx": false,
    "chain": false,
    "city": "New York City",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "7q25a0",
    "items": [
@@ -3260,7 +3260,7 @@
    "approx": false,
    "chain": false,
    "city": "Cedar Hill",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "7yyki0",
    "items": [
@@ -3330,7 +3330,7 @@
    "approx": false,
    "chain": false,
    "city": "Tokyo",
-   "closed": false,
+   "closed": true,
    "country": "Japan",
    "id": "887g82",
    "items": [
@@ -3458,7 +3458,7 @@
    "approx": false,
    "chain": true,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "8qvdvd",
    "items": [
@@ -3754,7 +3754,7 @@
    "approx": false,
    "chain": false,
    "city": "Taichung City",
-   "closed": false,
+   "closed": true,
    "country": "Taiwan",
    "id": "9rxyeg",
    "items": [
@@ -4093,7 +4093,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "anixo2",
    "items": [
@@ -4175,7 +4175,7 @@
    "approx": false,
    "chain": false,
    "city": "San Francisco",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "az783z",
    "items": [
@@ -4259,7 +4259,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "b3qw8r",
    "items": [
@@ -4300,7 +4300,7 @@
    "approx": false,
    "chain": false,
    "city": "Seoul",
-   "closed": false,
+   "closed": true,
    "country": "Korea",
    "id": "b511dv",
    "items": [
@@ -4828,7 +4828,7 @@
    "approx": false,
    "chain": false,
    "city": "Sydney",
-   "closed": false,
+   "closed": true,
    "country": "Australia",
    "id": "bp7dh4",
    "items": [
@@ -5577,7 +5577,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "d0vi0x",
    "items": [
@@ -5703,7 +5703,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "d6t729",
    "items": [
@@ -5987,7 +5987,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "ejge54",
    "items": [
@@ -6024,7 +6024,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "ekfa38",
    "items": [
@@ -6258,7 +6258,7 @@
    "approx": false,
    "chain": false,
    "city": "New York City",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "f1j5ul",
    "items": [
@@ -6480,7 +6480,7 @@
    "approx": false,
    "chain": false,
    "city": "New Orleans",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "ftgrst",
    "items": [
@@ -6527,7 +6527,7 @@
    "approx": false,
    "chain": true,
    "city": "Taichung City",
-   "closed": false,
+   "closed": true,
    "country": "Taiwan",
    "id": "ftrd54",
    "items": [
@@ -6597,7 +6597,7 @@
    "approx": false,
    "chain": false,
    "city": "Tokyo",
-   "closed": false,
+   "closed": true,
    "country": "Japan",
    "id": "fx9y5x",
    "items": [
@@ -6932,7 +6932,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "h9yf5f",
    "items": [
@@ -7976,7 +7976,7 @@
    "approx": false,
    "chain": false,
    "city": "Las Vegas",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "jzivpz",
    "items": [
@@ -8194,7 +8194,7 @@
    "approx": false,
    "chain": false,
    "city": "Montreal",
-   "closed": false,
+   "closed": true,
    "country": "Canada",
    "id": "kmuh7n",
    "items": [
@@ -8299,7 +8299,7 @@
    "approx": false,
    "chain": false,
    "city": "Las Vegas",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "ku6gk8",
    "items": [
@@ -8369,7 +8369,7 @@
    "approx": false,
    "chain": true,
    "city": "Minneapolis",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "l1nauu",
    "items": [
@@ -8439,7 +8439,7 @@
    "approx": false,
    "chain": false,
    "city": "St Paul",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "l4tlqo",
    "items": [
@@ -8735,7 +8735,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "m372u1",
    "items": [
@@ -9057,7 +9057,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "n4rlre",
    "items": [
@@ -9127,7 +9127,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "n65vr1",
    "items": [
@@ -9575,7 +9575,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "nwm7sn",
    "items": [
@@ -10236,7 +10236,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "pgt7ct",
    "items": [
@@ -10312,7 +10312,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "pqu6e0",
    "items": [
@@ -10452,7 +10452,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "pz5tz0",
    "items": [
@@ -10855,7 +10855,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "qsuljh",
    "items": [
@@ -10902,7 +10902,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "qyqb1x",
    "items": [
@@ -11164,7 +11164,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "rw32jv",
    "items": [
@@ -11303,7 +11303,7 @@
    "approx": false,
    "chain": false,
    "city": "Las Vegas",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "s7xe8v",
    "items": [
@@ -11338,7 +11338,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "sc8ldp",
    "items": [
@@ -11373,7 +11373,7 @@
    "approx": false,
    "chain": false,
    "city": "Sydney",
-   "closed": false,
+   "closed": true,
    "country": "Australia",
    "id": "sihrxz",
    "items": [
@@ -11652,7 +11652,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "sx3re3",
    "items": [
@@ -11835,7 +11835,7 @@
    "approx": false,
    "chain": false,
    "city": "Los Angeles",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "tihf6e",
    "items": [
@@ -11911,7 +11911,7 @@
    "approx": false,
    "chain": false,
    "city": "Las Vegas",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "tk678z",
    "items": [
@@ -11946,7 +11946,7 @@
    "approx": false,
    "chain": false,
    "city": "Las Vegas",
-   "closed": false,
+   "closed": true,
    "country": "USA",
    "id": "tkanx1",
    "items": [
